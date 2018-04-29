@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client1" />
+        <module name="service-client" />
+      </profile>
+      <profile name="Annotation profile for Spring Cloud Netflix" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-netflix-archaius" />
+        <module name="spring-cloud-netflix-core" />
+        <module name="spring-cloud-netflix-eureka-client" />
+        <module name="spring-cloud-netflix-eureka-server" />
+        <module name="spring-cloud-netflix-hystrix-dashboard" />
+        <module name="spring-cloud-netflix-hystrix-stream" />
+        <module name="spring-cloud-netflix-ribbon" />
+        <module name="spring-cloud-netflix-sidecar" />
+        <module name="spring-cloud-netflix-turbine" />
+        <module name="spring-cloud-netflix-turbine-stream" />
+        <module name="spring-cloud-netflix-zuul" />
+      </profile>
+      <profile name="Annotation profile for spring-cloud-starter-netflix-archaius" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-starter-netflix-archaius" />
+      </profile>
+      <profile name="Annotation profile for spring-cloud-starter-netflix-atlas" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-starter-netflix-atlas" />
+      </profile>
+      <profile name="Annotation profile for spring-cloud-starter-netflix-eureka-client" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-starter-netflix-eureka-client" />
+      </profile>
+      <profile name="Annotation profile for spring-cloud-starter-netflix-eureka-server" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-starter-netflix-eureka-server" />
+      </profile>
+      <profile name="Annotation profile for spring-cloud-starter-netflix-hystrix" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-starter-netflix-hystrix" />
+      </profile>
+      <profile name="Annotation profile for spring-cloud-starter-netflix-hystrix-dashboard" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-starter-netflix-hystrix-dashboard" />
+      </profile>
+      <profile name="Annotation profile for spring-cloud-starter-netflix-ribbon" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-starter-netflix-ribbon" />
+      </profile>
+      <profile name="Annotation profile for spring-cloud-starter-netflix-turbine" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-starter-netflix-turbine" />
+      </profile>
+      <profile name="Annotation profile for spring-cloud-starter-netflix-turbine-stream" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-starter-netflix-turbine-stream" />
+      </profile>
+      <profile name="Annotation profile for spring-cloud-starter-netflix-zuul" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-starter-netflix-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client1" target="1.5" />
+      <module name="service-client" target="1.5" />
+      <module name="spring-cloud-netflix" target="1.5" />
+      <module name="spring-cloud-netflix-archaius" target="1.5" />
+      <module name="spring-cloud-netflix-core" target="1.5" />
+      <module name="spring-cloud-netflix-dependencies" target="1.5" />
+      <module name="spring-cloud-netflix-eureka-client" target="1.5" />
+      <module name="spring-cloud-netflix-eureka-server" target="1.5" />
+      <module name="spring-cloud-netflix-hystrix-dashboard" target="1.5" />
+      <module name="spring-cloud-netflix-hystrix-stream" target="1.5" />
+      <module name="spring-cloud-netflix-ribbon" target="1.5" />
+      <module name="spring-cloud-netflix-sidecar" target="1.5" />
+      <module name="spring-cloud-netflix-turbine" target="1.5" />
+      <module name="spring-cloud-netflix-turbine-stream" target="1.5" />
+      <module name="spring-cloud-netflix-zuul" target="1.5" />
+      <module name="spring-cloud-starter-netflix" target="1.5" />
+      <module name="spring-cloud-starter-netflix-archaius" target="1.5" />
+      <module name="spring-cloud-starter-netflix-atlas" target="1.5" />
+      <module name="spring-cloud-starter-netflix-eureka-client" target="1.5" />
+      <module name="spring-cloud-starter-netflix-eureka-server" target="1.5" />
+      <module name="spring-cloud-starter-netflix-hystrix" target="1.5" />
+      <module name="spring-cloud-starter-netflix-hystrix-dashboard" target="1.5" />
+      <module name="spring-cloud-starter-netflix-ribbon" target="1.5" />
+      <module name="spring-cloud-starter-netflix-turbine" target="1.5" />
+      <module name="spring-cloud-starter-netflix-turbine-stream" target="1.5" />
+      <module name="spring-cloud-starter-netflix-zuul" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

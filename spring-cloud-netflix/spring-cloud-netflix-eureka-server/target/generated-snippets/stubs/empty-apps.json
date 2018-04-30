@@ -1,0 +1,22 @@
+{
+  "id" : "4e058b7d-db5a-4889-8079-9a37c1048729",
+  "request" : {
+    "url" : "/eureka/apps",
+    "method" : "GET",
+    "headers" : {
+      "Accept" : {
+        "equalTo" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\n  \"applications\" : {\n    \"versions__delta\" : \"1\",\n    \"apps__hashcode\" : \"\",\n    \"application\" : [ ]\n  }\n}",
+    "headers" : {
+      "Content-Encoding" : "gzip",
+      "Content-Type" : "application/json",
+      "Date" : "Sun, 29 Apr 2018 15:43:14 GMT"
+    }
+  },
+  "uuid" : "4e058b7d-db5a-4889-8079-9a37c1048729"
+}

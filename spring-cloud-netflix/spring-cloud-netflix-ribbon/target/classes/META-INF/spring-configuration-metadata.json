@@ -1,0 +1,33 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.springframework.cloud.netflix.ribbon.ServerIntrospectorProperties",
+      "name": "ribbon",
+      "type": "org.springframework.cloud.netflix.ribbon.ServerIntrospectorProperties"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.ribbon.RibbonEagerLoadProperties",
+      "name": "ribbon.eager-load",
+      "type": "org.springframework.cloud.netflix.ribbon.RibbonEagerLoadProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.springframework.cloud.netflix.ribbon.RibbonEagerLoadProperties",
+      "name": "ribbon.eager-load.clients",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.ribbon.RibbonEagerLoadProperties",
+      "defaultValue": false,
+      "name": "ribbon.eager-load.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.ribbon.ServerIntrospectorProperties",
+      "name": "ribbon.secure-ports",
+      "type": "java.util.List<java.lang.Integer>"
+    }
+  ]
+}

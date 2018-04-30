@@ -1,0 +1,32 @@
+{
+  "id" : "61e5b5b7-9034-4fb5-92c8-b6984a8a9749",
+  "request" : {
+    "url" : "/eureka/apps/FOO",
+    "method" : "POST",
+    "headers" : {
+      "Content-Type" : {
+        "equalTo" : "application/json; charset=UTF-8"
+      }
+    },
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$.instance.app"
+    }, {
+      "matchesJsonPath" : "$.instance.hostName"
+    }, {
+      "matchesJsonPath" : "$.instance[?(@.status=='STARTING')]"
+    }, {
+      "matchesJsonPath" : "$.instance.instanceId"
+    }, {
+      "matchesJsonPath" : "$.instance.dataCenterInfo.name"
+    } ]
+  },
+  "response" : {
+    "status" : 204,
+    "body" : "",
+    "headers" : {
+      "Content-Type" : "application/xml",
+      "Date" : "Sun, 29 Apr 2018 15:43:14 GMT"
+    }
+  },
+  "uuid" : "61e5b5b7-9034-4fb5-92c8-b6984a8a9749"
+}

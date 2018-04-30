@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ curl 'http://eureka.example.com/eureka/apps/FOO/f78f2647-de25-4ba4-aac3-d3457bfd0e9d/metadata?key=value' -i -X PUT \
+    -H 'Accept: application/json'
+----

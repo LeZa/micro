@@ -1,0 +1,65 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Sun, 29 Apr 2018 15:43:09 GMT
+Content-Length: 1660
+
+{
+  "generalStats" : {
+    "environment" : "test",
+    "num-of-cpus" : "4",
+    "total-avail-memory" : "461mb",
+    "current-memory-usage" : "175mb (37%)",
+    "server-uptime" : "00:00"
+  },
+  "applicationStats" : {
+    "registered-replicas" : "http://localhost:8761/eureka/",
+    "available-replicas" : "",
+    "unavailable-replicas" : "http://localhost:8761/eureka/,"
+  },
+  "instanceInfo" : {
+    "instanceId" : "9dc56b7e-5cfa-4aaa-8ee9-87802e53d941",
+    "hostName" : "foo.example.com",
+    "app" : "FOO",
+    "ipAddr" : "192.168.3.3",
+    "status" : "STARTING",
+    "overriddenStatus" : "UNKNOWN",
+    "port" : {
+      "$" : 40510,
+      "@enabled" : "true"
+    },
+    "securePort" : {
+      "$" : 443,
+      "@enabled" : "false"
+    },
+    "countryId" : 1,
+    "dataCenterInfo" : {
+      "@class" : "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+      "name" : "MyOwn"
+    },
+    "leaseInfo" : {
+      "renewalIntervalInSecs" : 30,
+      "durationInSecs" : 90,
+      "registrationTimestamp" : 1525016587765,
+      "lastRenewalTimestamp" : 1525016587765,
+      "evictionTimestamp" : 0,
+      "serviceUpTimestamp" : 0
+    },
+    "metadata" : {
+      "@class" : "java.util.Collections$EmptyMap"
+    },
+    "homePageUrl" : "http://foo.example.com:40510/",
+    "statusPageUrl" : "http://foo.example.com:40510/actuator/info",
+    "healthCheckUrl" : "http://foo.example.com:40510/actuator/health",
+    "vipAddress" : "eureka",
+    "secureVipAddress" : "eureka",
+    "isCoordinatingDiscoveryServer" : "true",
+    "lastUpdatedTimestamp" : "1525016587770",
+    "lastDirtyTimestamp" : "1525016587761",
+    "actionType" : "ADDED"
+  },
+  "healthy" : true
+}
+----

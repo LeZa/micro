@@ -1,0 +1,15 @@
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-eureka-server/src/test/java/org/springframework/cloud/netflix/eureka/server/doc/AbstractDocumentationTests.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-eureka-server/src/test/java/org/springframework/cloud/netflix/eureka/server/RefreshablePeerEurekaNodesTests.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-eureka-server/src/test/java/org/springframework/cloud/netflix/eureka/server/ApplicationServletPathTests.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-eureka-server/src/test/java/org/springframework/cloud/netflix/eureka/server/EurekaControllerTests.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-eureka-server/src/test/java/org/springframework/cloud/netflix/eureka/server/doc/EurekaObjectMapper.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-eureka-server/src/test/java/org/springframework/cloud/netflix/eureka/server/doc/EurekaServerTests.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-eureka-server/src/test/java/org/springframework/cloud/netflix/eureka/server/EurekaControllerReplicasTests.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-eureka-server/src/test/java/org/springframework/cloud/netflix/eureka/server/doc/AppRegistrationTests.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-eureka-server/src/test/java/org/springframework/cloud/netflix/eureka/server/ApplicationDashboardDisabledTests.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-eureka-server/src/test/java/org/springframework/cloud/netflix/eureka/server/InstanceRegistryTests.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-eureka-server/src/test/java/org/springframework/cloud/netflix/eureka/server/ApplicationContextTests.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-eureka-server/src/test/java/org/springframework/cloud/netflix/eureka/server/ApplicationTests.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-eureka-server/src/test/java/org/springframework/cloud/netflix/eureka/server/ApplicationDashboardPathTests.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-eureka-server/src/test/java/org/springframework/cloud/netflix/eureka/server/doc/RequestVerifierFilter.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-eureka-server/src/test/java/org/springframework/cloud/netflix/eureka/server/EurekaCustomPeerNodesTests.java

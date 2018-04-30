@@ -1,0 +1,6 @@
+org/springframework/cloud/netflix/archaius/ArchaiusAutoConfiguration$PropagateEventsConfiguration.class
+org/springframework/cloud/netflix/archaius/ArchaiusAutoConfiguration.class
+org/springframework/cloud/netflix/archaius/ConfigurableEnvironmentConfiguration.class
+org/springframework/cloud/netflix/archaius/ArchaiusDelegatingProxyUtils.class
+org/springframework/cloud/netflix/archaius/ArchaiusEndpoint.class
+org/springframework/cloud/netflix/archaius/ArchaiusAutoConfiguration$ArchaiusEndpointConfiguration.class

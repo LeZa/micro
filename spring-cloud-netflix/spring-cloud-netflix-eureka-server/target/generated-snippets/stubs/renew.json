@@ -1,0 +1,17 @@
+{
+  "id" : "5abf8cfe-130b-4a67-acfc-87b9326ec295",
+  "request" : {
+    "urlPathPattern" : "/eureka/apps/FOO/.*",
+    "method" : "PUT"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "Content-Length" : "0",
+      "Date" : "Sun, 29 Apr 2018 15:43:15 GMT"
+    }
+  },
+  "uuid" : "5abf8cfe-130b-4a67-acfc-87b9326ec295"
+}

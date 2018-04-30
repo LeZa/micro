@@ -1,0 +1,22 @@
+{
+  "id" : "d0524a81-4cbd-4803-b5ca-103ae62bca98",
+  "request" : {
+    "urlPathPattern" : "/eureka/apps/FOO/.*/metadata",
+    "method" : "PUT",
+    "queryParameters" : {
+      "key" : {
+        "matches" : ".*"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "Content-Length" : "0",
+      "Date" : "Sun, 29 Apr 2018 15:43:15 GMT"
+    }
+  },
+  "uuid" : "d0524a81-4cbd-4803-b5ca-103ae62bca98"
+}

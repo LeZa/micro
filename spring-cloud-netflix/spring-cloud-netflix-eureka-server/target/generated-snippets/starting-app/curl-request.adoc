@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ curl 'http://eureka.example.com/eureka/apps' -i -X GET \
+    -H 'Accept: application/json'
+----

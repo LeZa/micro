@@ -1,0 +1,7 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json
+Date: Sun, 29 Apr 2018 15:43:15 GMT
+
+----

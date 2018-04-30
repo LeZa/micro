@@ -37,6 +37,7 @@ import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.cloud.client.actuator.HasFeatures;
 import org.springframework.cloud.context.environment.EnvironmentChangeEvent;
 import org.springframework.cloud.netflix.eureka.EurekaConstants;
+import org.springframework.cloud.netflix.eureka.server.event.RefreshablePeerEurekaNodes;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider;
@@ -172,68 +173,10 @@ public class EurekaServerAutoConfiguration extends WebMvcConfigurerAdapter {
 	@ConditionalOnMissingBean
 	public PeerEurekaNodes peerEurekaNodes(PeerAwareInstanceRegistry registry,
 			ServerCodecs serverCodecs) {
-		return new RefreshablePeerEurekaNodes(registry, this.eurekaServerConfig,
+		return new PeerEurekaNodes(registry, this.eurekaServerConfig,
 				this.eurekaClientConfig, serverCodecs, this.applicationInfoManager);
 	}
-	
-	/**
-	 * {@link PeerEurekaNodes} which updates peers when /refresh is invoked.
-	 * Peers are updated only if
-	 * <code>eureka.client.use-dns-for-fetching-service-urls</code> is
-	 * <code>false</code> and one of following properties have changed.
-	 * </p>
-	 * <ul>
-	 * <li><code>eureka.client.availability-zones</code></li>
-	 * <li><code>eureka.client.region</code></li>
-	 * <li><code>eureka.client.service-url.&lt;zone&gt;</code></li>
-	 * </ul>
-	 */
-	static class RefreshablePeerEurekaNodes extends PeerEurekaNodes
-			implements ApplicationListener<EnvironmentChangeEvent> {
 
-		public RefreshablePeerEurekaNodes(
-				final PeerAwareInstanceRegistry registry,
-				final EurekaServerConfig serverConfig,
-				final EurekaClientConfig clientConfig, 
-				final ServerCodecs serverCodecs,
-				final ApplicationInfoManager applicationInfoManager) {
-			super(registry, serverConfig, clientConfig, serverCodecs, applicationInfoManager);
-		}
-
-		@Override
-		public void onApplicationEvent(final EnvironmentChangeEvent event) {
-			if (shouldUpdate(event.getKeys())) {
-				updatePeerEurekaNodes(resolvePeerUrls());
-			}
-		}
-		
-		/*
-		 * Check whether specific properties have changed.
-		 */
-		protected boolean shouldUpdate(final Set<String> changedKeys) {
-			assert changedKeys != null;
-			
-			// if eureka.client.use-dns-for-fetching-service-urls is true, then
-			// service-url will not be fetched from environment.
-			if (clientConfig.shouldUseDnsForFetchingServiceUrls()) {
-				return false;
-			}
-			
-			if (changedKeys.contains("eureka.client.region")) {
-				return true;
-			}
-			
-			for (final String key : changedKeys) {
-				// property keys are not expected to be null.
-				if (key.startsWith("eureka.client.service-url.") ||
-					key.startsWith("eureka.client.availability-zones.")) {
-					return true;
-				}
-			}
-			
-			return false;
-		}
-	}
 
 	@Bean
 	public EurekaServerContext eurekaServerContext(ServerCodecs serverCodecs,

@@ -1,0 +1,10 @@
+[source,options="nowrap"]
+----
+{
+  "applications" : {
+    "versions__delta" : "1",
+    "apps__hashcode" : "",
+    "application" : [ ]
+  }
+}
+----

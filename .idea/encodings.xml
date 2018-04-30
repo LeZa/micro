@@ -3,5 +3,33 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/eureka-me/service-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-me/service-client1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-me/service-oauth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-me/service-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-me/service-server1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-me/service-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-dependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-hystrix-stream" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-sidecar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-turbine-stream" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-starter-netflix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-starter-netflix/spring-cloud-starter-netflix-archaius" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-starter-netflix/spring-cloud-starter-netflix-atlas" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-starter-netflix/spring-cloud-starter-netflix-eureka-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-starter-netflix/spring-cloud-starter-netflix-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-starter-netflix/spring-cloud-starter-netflix-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-starter-netflix/spring-cloud-starter-netflix-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-starter-netflix/spring-cloud-starter-netflix-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-starter-netflix/spring-cloud-starter-netflix-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-starter-netflix/spring-cloud-starter-netflix-turbine-stream" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-starter-netflix/spring-cloud-starter-netflix-zuul" charset="UTF-8" />
   </component>
 </project>

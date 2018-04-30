@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.springframework.cloud.netflix.eureka.server.RefreshablePeerEurekaNodesTests
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 4.051 sec

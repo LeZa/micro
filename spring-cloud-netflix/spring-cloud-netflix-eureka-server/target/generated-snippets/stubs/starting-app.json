@@ -1,0 +1,22 @@
+{
+  "id" : "a25e9e90-5fa0-459a-bfd8-02286bfe6d20",
+  "request" : {
+    "url" : "/eureka/apps",
+    "method" : "GET",
+    "headers" : {
+      "Accept" : {
+        "equalTo" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\n  \"applications\" : {\n    \"versions__delta\" : \"1\",\n    \"apps__hashcode\" : \"STARTING_1_\",\n    \"application\" : [ {\n      \"name\" : \"FOO\",\n      \"instance\" : [ {\n        \"instanceId\" : \"2dea1f6e-070a-411b-a555-429362870b96\",\n        \"hostName\" : \"foo.example.com\",\n        \"app\" : \"FOO\",\n        \"ipAddr\" : \"192.168.3.3\",\n        \"status\" : \"STARTING\",\n        \"overriddenStatus\" : \"UNKNOWN\",\n        \"port\" : {\n          \"$\" : 39148,\n          \"@enabled\" : \"true\"\n        },\n        \"securePort\" : {\n          \"$\" : 443,\n          \"@enabled\" : \"false\"\n        },\n        \"countryId\" : 1,\n        \"dataCenterInfo\" : {\n          \"@class\" : \"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo\",\n          \"name\" : \"MyOwn\"\n        },\n        \"leaseInfo\" : {\n          \"renewalIntervalInSecs\" : 30,\n          \"durationInSecs\" : 90,\n          \"registrationTimestamp\" : 1525016594779,\n          \"lastRenewalTimestamp\" : 1525016594779,\n          \"evictionTimestamp\" : 0,\n          \"serviceUpTimestamp\" : 0\n        },\n        \"metadata\" : {\n          \"@class\" : \"java.util.Collections$EmptyMap\"\n        },\n        \"homePageUrl\" : \"http://foo.example.com:39148/\",\n        \"statusPageUrl\" : \"http://foo.example.com:39148/actuator/info\",\n        \"healthCheckUrl\" : \"http://foo.example.com:39148/actuator/health\",\n        \"vipAddress\" : \"eureka\",\n        \"secureVipAddress\" : \"eureka\",\n        \"isCoordinatingDiscoveryServer\" : \"true\",\n        \"lastUpdatedTimestamp\" : \"1525016594779\",\n        \"lastDirtyTimestamp\" : \"1525016594779\",\n        \"actionType\" : \"ADDED\"\n      } ]\n    } ]\n  }\n}",
+    "headers" : {
+      "Content-Encoding" : "gzip",
+      "Content-Type" : "application/json",
+      "Date" : "Sun, 29 Apr 2018 15:43:14 GMT"
+    }
+  },
+  "uuid" : "a25e9e90-5fa0-459a-bfd8-02286bfe6d20"
+}

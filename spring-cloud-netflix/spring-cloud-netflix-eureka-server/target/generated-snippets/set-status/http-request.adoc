@@ -1,0 +1,8 @@
+[source,http,options="nowrap"]
+----
+PUT /eureka/apps/FOO/e4ab0cac-e562-4e09-9a8a-86ff47005ddd/status?value=UP HTTP/1.1
+Host: eureka.example.com
+Content-Type: application/x-www-form-urlencoded
+
+value=UP
+----

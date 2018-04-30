@@ -1,0 +1,17 @@
+{
+  "id" : "4a972e31-24b6-4108-ac3e-40037a542c42",
+  "request" : {
+    "urlPathPattern" : "/eureka/apps/FOO/.*",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "",
+    "headers" : {
+      "Content-Type" : "application/xml",
+      "Content-Length" : "0",
+      "Date" : "Sun, 29 Apr 2018 15:43:14 GMT"
+    }
+  },
+  "uuid" : "4a972e31-24b6-4108-ac3e-40037a542c42"
+}

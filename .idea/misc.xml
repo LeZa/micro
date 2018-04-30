@@ -4,9 +4,18 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/eureka-me/service-client/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-me/service-client1/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-netflix/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-me/service-server/pom.xml" />
+        <option value="$PROJECT_DIR$/netflix-ribbon/ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/netflix-ribbon/ribbon-core/pom.xml" />
+        <option value="$PROJECT_DIR$/netflix-ribbon/ribbon-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/netflix-ribbon/ribbon-httpclient/pom.xml" />
+        <option value="$PROJECT_DIR$/netflix-ribbon/ribbon-loadbalancer/pom.xml" />
+        <option value="$PROJECT_DIR$/netflix-ribbon/ribbon-transport/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-me/service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-me/service-oauth/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

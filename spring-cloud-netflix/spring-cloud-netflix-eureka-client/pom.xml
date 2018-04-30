@@ -60,6 +60,7 @@
 		<dependency>
 			<groupId>com.netflix.eureka</groupId>
 			<artifactId>eureka-core</artifactId>
+			<version>1.9.0</version>
 			<optional>true</optional>
 		</dependency>
 		<!-- Eureka core deps that are now optional -->

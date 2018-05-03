@@ -1,0 +1,206 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.FiltersEndpoint",
+      "name": "management.endpoint.filters",
+      "type": "org.springframework.cloud.netflix.zuul.FiltersEndpoint"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.RoutesEndpoint",
+      "name": "management.endpoint.routes",
+      "type": "org.springframework.cloud.netflix.zuul.RoutesEndpoint"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "name": "zuul",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "name": "zuul.host",
+      "sourceMethod": "getHost()",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "name": "zuul.semaphore",
+      "sourceMethod": "getSemaphore()",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixSemaphore"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "name": "zuul.thread-pool",
+      "sourceMethod": "getThreadPool()",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixThreadPool"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.FiltersEndpoint",
+      "defaultValue": "0ms",
+      "name": "management.endpoint.filters.cache.time-to-live",
+      "description": "Maximum time that a response can be cached.",
+      "type": "java.time.Duration"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.FiltersEndpoint",
+      "defaultValue": true,
+      "name": "management.endpoint.filters.enabled",
+      "description": "Whether to enable the filters endpoint.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.RoutesEndpoint",
+      "defaultValue": "0ms",
+      "name": "management.endpoint.routes.cache.time-to-live",
+      "description": "Maximum time that a response can be cached.",
+      "type": "java.time.Duration"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.RoutesEndpoint",
+      "defaultValue": true,
+      "name": "management.endpoint.routes.enabled",
+      "description": "Whether to enable the routes endpoint.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "defaultValue": false,
+      "name": "zuul.add-host-header",
+      "description": "Flag to determine whether the proxy forwards the Host header.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "defaultValue": true,
+      "name": "zuul.add-proxy-headers",
+      "description": "Flag to determine whether the proxy adds X-Forwarded-* headers.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "defaultValue": false,
+      "name": "zuul.force-original-query-string-encoding",
+      "description": "Flag to force the original query string encoding when building the backend URI in\n SimpleHostRoutingFilter. When activated, query string will be built using\n HttpServletRequest getQueryString() method instead of UriTemplate. Note that this\n flag is not used in RibbonRoutingFilter with services found via DiscoveryClient\n (like Eureka).",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "defaultValue": true,
+      "name": "zuul.ignore-local-service",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "defaultValue": true,
+      "name": "zuul.ignore-security-headers",
+      "description": "Flag to say that SECURITY_HEADERS are added to ignored headers if spring security is on the classpath.\n By setting ignoreSecurityHeaders to false we can switch off this default behaviour. This should be used together with\n disabling the default spring security headers\n see https:\/\/docs.spring.io\/spring-security\/site\/docs\/current\/reference\/html\/headers.html#default-security-headers",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "name": "zuul.ignored-headers",
+      "description": "Names of HTTP headers to ignore completely (i.e. leave them out of downstream\n requests and drop them from downstream responses).",
+      "type": "java.util.Set<java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "name": "zuul.ignored-patterns",
+      "type": "java.util.Set<java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "name": "zuul.ignored-services",
+      "description": "Set of service names not to consider for proxying automatically. By default all\n services in the discovery client will be proxied.",
+      "type": "java.util.Set<java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "defaultValue": false,
+      "name": "zuul.include-debug-header",
+      "description": "Setting for SendResponseFilter to conditionally include X-Zuul-Debug-Header header.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "defaultValue": 8192,
+      "name": "zuul.initial-stream-buffer-size",
+      "description": "Setting for SendResponseFilter for the initial stream buffer size.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "defaultValue": "",
+      "name": "zuul.prefix",
+      "description": "A common prefix for all routes.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "defaultValue": true,
+      "name": "zuul.remove-semicolon-content",
+      "description": "Flag to say that path elements past the first semicolon can be dropped.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "defaultValue": false,
+      "name": "zuul.retryable",
+      "description": "Flag for whether retry is supported by default (assuming the routes themselves\n support it).",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "name": "zuul.ribbon-isolation-strategy",
+      "type": "com.netflix.hystrix.HystrixCommandProperties$ExecutionIsolationStrategy"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "name": "zuul.routes",
+      "description": "Map of route names to properties.",
+      "type": "java.util.Map<java.lang.String,org.springframework.cloud.netflix.zuul.filters.ZuulProperties.ZuulRoute>"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "name": "zuul.sensitive-headers",
+      "description": "List of sensitive headers that are not passed to downstream requests. Defaults to a\n \"safe\" set of headers that commonly contain user credentials. It's OK to remove\n those from the list if the downstream service is part of the same system as the\n proxy, so they are sharing authentication data. If using a physical URL outside\n your own domain, then generally it would be a bad idea to leak user credentials.",
+      "type": "java.util.Set<java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "defaultValue": "\/zuul",
+      "name": "zuul.servlet-path",
+      "description": "Path to install Zuul as a servlet (not part of Spring MVC). The servlet is more\n memory efficient for requests with large bodies, e.g. file uploads.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "defaultValue": false,
+      "name": "zuul.set-content-length",
+      "description": "Setting for SendResponseFilter to conditionally set Content-Length header.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "defaultValue": true,
+      "name": "zuul.ssl-hostname-validation-enabled",
+      "description": "Flag to say whether the hostname for ssl connections should be verified or not. Default is true.\n This should only be used in test setups!",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "defaultValue": true,
+      "name": "zuul.strip-prefix",
+      "description": "Flag saying whether to strip the prefix from the path before forwarding.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "defaultValue": true,
+      "name": "zuul.trace-request-body",
+      "description": "Flag to say that request bodies can be traced.",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}

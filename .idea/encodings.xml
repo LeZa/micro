@@ -3,7 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/eureka-me/service-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-me/service-client1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-me/service-client1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-me/service-oauth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-me/service-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-me/service-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-me/service-server1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-me/service-zuul" charset="UTF-8" />

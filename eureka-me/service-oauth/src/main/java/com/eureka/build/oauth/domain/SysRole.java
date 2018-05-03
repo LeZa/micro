@@ -6,13 +6,14 @@ import lombok.EqualsAndHashCode;
 import org.hibernate.annotations.BatchSize;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
 @Entity
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class SysRole extends AbstractAuditingEntity{
+public class SysRole implements Serializable {
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue

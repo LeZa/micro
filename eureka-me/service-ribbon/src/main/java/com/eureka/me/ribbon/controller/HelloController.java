@@ -25,7 +25,7 @@ public class HelloController {
     private RestTemplate restTemplate;
 
     @RequestMapping(value = "/hi")
-    @PreAuthorize("hasAuthority('query-demo')")
+    @PreAuthorize("hasAuthority('has_query')")
     public String hi(@RequestParam String name,HttpServletRequest request){
 
         String access_token = request.getParameter("access_token");
@@ -44,7 +44,7 @@ public class HelloController {
     }
 
     @GetMapping(value = "/hi1")
-    @PreAuthorize("hasAuthority('query-demo')")
+    @PreAuthorize("hasAuthority('has_query')")
     public String hiHystrix(@RequestParam String name){
         return "static";
     }

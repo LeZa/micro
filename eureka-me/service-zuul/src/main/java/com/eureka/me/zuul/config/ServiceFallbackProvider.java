@@ -21,7 +21,7 @@ public class ServiceFallbackProvider
     }
 
     @Override
-    public ClientHttpResponse fallbackResponse() {
+    public ClientHttpResponse fallbackResponse(String route, Throwable cause) {
         return new ClientHttpResponse() {
             @Override
             public HttpStatus getStatusCode() throws IOException {
@@ -58,8 +58,4 @@ public class ServiceFallbackProvider
     }
 
 
-    @Override
-    public ClientHttpResponse fallbackResponse(Throwable cause) {
-        return fallbackResponse();
-    }
 }

@@ -10,7 +10,6 @@ public class Author
 
     private static final long serialVersionUID = 1L;
 
-
     @Id
     private Integer id;
 
@@ -26,13 +25,7 @@ public class Author
     @OneToMany(fetch = FetchType.LAZY,mappedBy = "author")
     private Set<Book> books;
 
-
-
     public Author(){}
-
-
-
-
 
     public Integer getId() {
         return id;
@@ -72,6 +65,5 @@ public class Author
         this.age = age;
         this.country = country;
     }
-
 
 }

@@ -13,6 +13,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -21,7 +22,7 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper = false)
-public class SysUser extends AbstractAuditingEntity{
+public class SysUser implements Serializable {
     @Id
     @GeneratedValue
     private Long id;

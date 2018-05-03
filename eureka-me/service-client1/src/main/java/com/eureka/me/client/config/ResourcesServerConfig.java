@@ -1,4 +1,4 @@
-package config;
+package com.eureka.me.client.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

@@ -13,7 +13,9 @@
         <module name="ribbon-loadbalancer" />
         <module name="ribbon-transport" />
         <module name="service-client" />
+        <module name="service-client1" />
         <module name="service-oauth" />
+        <module name="service-ribbon" />
         <module name="service-server" />
         <module name="service-server1" />
         <module name="service-zuul" />
@@ -49,7 +51,9 @@
       <module name="ribbon-loadbalancer" target="1.8" />
       <module name="ribbon-transport" target="1.8" />
       <module name="service-client" target="1.8" />
+      <module name="service-client1" target="1.8" />
       <module name="service-oauth" target="1.8" />
+      <module name="service-ribbon" target="1.8" />
       <module name="service-server" target="1.8" />
       <module name="service-server1" target="1.8" />
       <module name="service-zuul" target="1.8" />

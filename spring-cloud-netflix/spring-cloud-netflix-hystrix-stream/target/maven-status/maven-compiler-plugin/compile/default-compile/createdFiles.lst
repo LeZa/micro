@@ -1,0 +1,5 @@
+META-INF/spring-configuration-metadata.json
+org/springframework/cloud/netflix/hystrix/stream/HystrixStreamProperties.class
+org/springframework/cloud/netflix/hystrix/stream/HystrixStreamClient.class
+org/springframework/cloud/netflix/hystrix/stream/HystrixStreamTask.class
+org/springframework/cloud/netflix/hystrix/stream/HystrixStreamAutoConfiguration.class

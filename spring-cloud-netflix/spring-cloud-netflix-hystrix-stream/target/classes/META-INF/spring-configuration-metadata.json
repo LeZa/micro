@@ -1,0 +1,67 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.springframework.cloud.netflix.hystrix.stream.HystrixStreamProperties",
+      "name": "hystrix.stream.queue",
+      "type": "org.springframework.cloud.netflix.hystrix.stream.HystrixStreamProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.springframework.cloud.netflix.hystrix.stream.HystrixStreamProperties",
+      "defaultValue": "application\/json",
+      "name": "hystrix.stream.queue.content-type",
+      "description": "The content type of the messages. Defaults to application\/json",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.hystrix.stream.HystrixStreamProperties",
+      "name": "hystrix.stream.queue.destination",
+      "description": "The destination of the stream. Destination as defined by Spring Cloud Stream. Defaults to springCloudHystrixStream",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.hystrix.stream.HystrixStreamProperties",
+      "defaultValue": true,
+      "name": "hystrix.stream.queue.enabled",
+      "description": "Flag to indicate that Hystrix Stream is enabled. Default is true.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.hystrix.stream.HystrixStreamProperties",
+      "defaultValue": 500,
+      "name": "hystrix.stream.queue.gather-rate",
+      "description": "How often to put messages in the queue. This queue drains to the stream. Defaults to 500.",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.hystrix.stream.HystrixStreamProperties",
+      "defaultValue": true,
+      "name": "hystrix.stream.queue.prefix-metric-name",
+      "description": "Flag to indicate to prefix metric names with serviceId. Default is true.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.hystrix.stream.HystrixStreamProperties",
+      "defaultValue": true,
+      "name": "hystrix.stream.queue.send-id",
+      "description": "Flag to indicate to send the id field in the metrics. Default is true",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.hystrix.stream.HystrixStreamProperties",
+      "defaultValue": 500,
+      "name": "hystrix.stream.queue.send-rate",
+      "description": "How often (in ms) to send messages to the stream. Defaults to 500.",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.hystrix.stream.HystrixStreamProperties",
+      "defaultValue": 1000,
+      "name": "hystrix.stream.queue.size",
+      "description": "The size of the metrics queue. This queue drains to the stream. Defaults to 1000.",
+      "type": "java.lang.Integer"
+    }
+  ]
+}

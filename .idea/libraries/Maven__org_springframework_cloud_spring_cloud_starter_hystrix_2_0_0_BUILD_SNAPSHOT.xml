@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.cloud:spring-cloud-starter-hystrix:2.0.0.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/m2/org/springframework/cloud/spring-cloud-starter-hystrix/2.0.0.BUILD-SNAPSHOT/spring-cloud-starter-hystrix-2.0.0.BUILD-20170912.014757-800.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/m2/org/springframework/cloud/spring-cloud-starter-hystrix/2.0.0.BUILD-SNAPSHOT/spring-cloud-starter-hystrix-2.0.0.BUILD-20170912.014757-800-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/m2/org/springframework/cloud/spring-cloud-starter-hystrix/2.0.0.BUILD-SNAPSHOT/spring-cloud-starter-hystrix-2.0.0.BUILD-20170912.014757-800-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

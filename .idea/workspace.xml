@@ -2,126 +2,328 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02f7d4f0-59b7-4821-8c23-9132c8d3489e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_8_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_7_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_1_4_1_BUILD_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_1_4_1_BUILD_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_1_4_1_BUILD_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_1_4_1_BUILD_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_1_4_1_BUILD_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_ribbon_1_4_1_BUILD_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_0_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_3_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/eureka-me/service-client1/src/main/java/com/eureka/me/client/config/ResourcesServerConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/eureka-me/service-client1/src/main/java/com/eureka/me/client/controller/HelloController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/AuditorAwareImpl.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_7_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_7_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_1_10.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_23.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_23.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_12_Final.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_12_Final.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_envers_5_0_12_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_envers_5_2_16_Final.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_8_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_8_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_8_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_5_8_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_1_5_8_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_8_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_8_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_2_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_3_1_BUILD_SNAPSHOT.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_ribbon_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/BeanConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/ClientResources.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/ResourceServerConfiguration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/SecurityConfigAdapter.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_8_10.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_5.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_7_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_7_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_9.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_8.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_11.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_55.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_55.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_8_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_8_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_8_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_8_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_8_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_8_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_8_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_8_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_8_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_3_1_BUILD_SNAPSHOT.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_2_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_3_1_BUILD_SNAPSHOT.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_3_1_BUILD_SNAPSHOT.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_1_3_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_1_3_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_security_1_2_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_2_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_3_1_BUILD_SNAPSHOT.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_1_4_1_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_1_4_1_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_3_1_BUILD_SNAPSHOT.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_1_2_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_test_support_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_test_support_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_8_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_8_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_2_8_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_8_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_unknown.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_2_1_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_data_4_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_data_5_0_4_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_12_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_12_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_12_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_12_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_12_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_12_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_1_4_1_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_1_4_1_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_1_4_1_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_1_4_1_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_1_4_1_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_1_4_1_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_ribbon_1_4_1_BUILD_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_0_14_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_3_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_3_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_4_2_3_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_3_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_3_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_12_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_12_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_12_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_12_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_12_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_12_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_12_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_12_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/pom.xml" afterPath="$PROJECT_DIR$/eureka-me/service-client/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/service-client.iml" afterPath="$PROJECT_DIR$/eureka-me/service-client/service-client.iml" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/config/ClientConfig.java" afterPath="$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/config/ClientConfig.java" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/config/FancyDataSourceProperties.java" afterPath="$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/config/FancyDataSourceProperties.java" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/domain/Author.java" afterPath="$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/domain/Author.java" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/domain/Base.java" afterPath="$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/domain/Base.java" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/eureka-me/service-client/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/application.yml" afterPath="$PROJECT_DIR$/eureka-me/service-client/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/ServiceClientApplication.class" afterPath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/ServiceClientApplication.class" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/config/ClientConfig.class" afterPath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/config/ClientConfig.class" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/config/FancyDataSourceProperties.class" afterPath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/config/FancyDataSourceProperties.class" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-client1/.gitignore" afterPath="$PROJECT_DIR$/eureka-me/service-client1/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-client1/.mvn/wrapper/maven-wrapper.jar" afterPath="$PROJECT_DIR$/eureka-me/service-client1/.mvn/wrapper/maven-wrapper.jar" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-client1/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/eureka-me/service-client1/.mvn/wrapper/maven-wrapper.properties" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-client1/mvnw.cmd" afterPath="$PROJECT_DIR$/eureka-me/service-client1/mvnw.cmd" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-client1/pom.xml" afterPath="$PROJECT_DIR$/eureka-me/service-client1/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-client1/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/eureka-me/service-client1/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/ServiceClientApplication.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/config/ClientConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/config/FancyDataSourceProperties.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/config/JsonKey.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/config/PageableConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/config/ResourcesServerConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/config/UserTypeAdapter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/config/ZipkinConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/controller/HelloController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/domain/Author.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/domain/Base.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/domain/Book.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/domain/Image.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/domain/Student.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/domain/Teacher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/repository/JpaTeacherRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/repository/StudentRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/repository/TeacherRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/service/AuthorRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/service/AuthorSearchCriteria.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/service/AuthorService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/service/AuthorServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/service/BookRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/service/BookService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/service/BookServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/service/StudentSService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/service/StudentService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/classes/com/eureka/me/client/service/StudentServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-client/target/test-classes/com/eureka/me/client/ServiceClientApplicationTests.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/pom.xml" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/pom.xml" />
       <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/service-oauth.iml" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/service-oauth.iml" />
       <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/OauthApplication.java" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/OauthApplication.java" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/SecurityConfig.java" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/SecurityConfig.java" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/domain/AbstractAuditingEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/domain/SysAuthority.java" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/domain/SysAuthority.java" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/domain/SysRole.java" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/domain/SysRole.java" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/domain/SysUser.java" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/domain/SysUser.java" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/AuditorAwareImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/AuthorizationServerConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/ResourceConfiguration.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/SecurityConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/controller/UserController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/endpoint/RevokeTokenEndpoint.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/repository/support/ByExampleSpecification.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/repository/support/ByRangeSpecification.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/repository/support/Range.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/repository/support/WiselyRepository.java" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/repository/support/WiselyRepository.java" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/repository/support/WiselyRepositoryImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/security/DomainUserDetailsService.java" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/common/DomainUserDetailsService.java" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/security/SecurityUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/util/Constants.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/src/test/java/com/eureka/build/oauth/OauthApplicationTests.java" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/src/test/java/com/eureka/build/oauth/OauthApplicationTests.java" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/application.yml" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/application.yml" />
       <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/OauthApplication.class" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/OauthApplication.class" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/config/SecurityConfig.class" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/config/SecurityConfig.class" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/domain/AbstractAuditingEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/domain/SysAuthority.class" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/domain/SysAuthority.class" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/domain/SysRole.class" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/domain/SysRole.class" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/domain/SysUser.class" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/domain/SysUser.class" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/config/AuditorAwareImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/config/AuthorizationServerConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/config/ResourceConfiguration.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/config/SecurityConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/controller/UserController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/endpoint/RevokeTokenEndpoint.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/repository/support/ByExampleSpecification.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/repository/support/ByRangeSpecification.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/repository/support/Range.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/repository/support/WiselyRepository.class" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/repository/support/WiselyRepository.class" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/repository/support/WiselyRepositoryImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/security/DomainUserDetailsService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/security/SecurityUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/classes/com/eureka/build/oauth/util/Constants.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-oauth/target/test-classes/com/eureka/build/oauth/OauthApplicationTests.class" afterPath="$PROJECT_DIR$/eureka-me/service-oauth/target/test-classes/com/eureka/build/oauth/OauthApplicationTests.class" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-ribbon/pom.xml" afterPath="$PROJECT_DIR$/eureka-me/service-ribbon/pom.xml" />
       <change beforePath="$PROJECT_DIR$/eureka-me/service-ribbon/service-ribbon.iml" afterPath="$PROJECT_DIR$/eureka-me/service-ribbon/service-ribbon.iml" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-ribbon/src/main/java/com/eureka/me/ribbon/controller/HelloController.java" afterPath="$PROJECT_DIR$/eureka-me/service-ribbon/src/main/java/com/eureka/me/ribbon/controller/HelloController.java" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-ribbon/src/main/java/com/eureka/me/ribbon/ServiceRibbonApplication.java" afterPath="$PROJECT_DIR$/eureka-me/service-ribbon/src/main/java/com/eureka/me/ribbon/ServiceRibbonApplication.java" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-ribbon/target/classes/com/eureka/me/ribbon/ServiceRibbonApplication.class" afterPath="$PROJECT_DIR$/eureka-me/service-ribbon/target/classes/com/eureka/me/ribbon/ServiceRibbonApplication.class" />
+      <change beforePath="$PROJECT_DIR$/eureka-me/service-ribbon/target/classes/com/eureka/me/ribbon/controller/HelloController.class" afterPath="$PROJECT_DIR$/eureka-me/service-ribbon/target/classes/com/eureka/me/ribbon/controller/HelloController.class" />
       <change beforePath="$PROJECT_DIR$/eureka-me/service-zuul/pom.xml" afterPath="$PROJECT_DIR$/eureka-me/service-zuul/pom.xml" />
       <change beforePath="$PROJECT_DIR$/eureka-me/service-zuul/service-zuul.iml" afterPath="$PROJECT_DIR$/eureka-me/service-zuul/service-zuul.iml" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/ServiceZuulApplication.java" afterPath="$PROJECT_DIR$/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/ServiceZuulApplication.java" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/config/ServiceFallbackProvider.java" afterPath="$PROJECT_DIR$/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/config/ServiceFallbackProvider.java" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/config/WebSecurityConfig.java" afterPath="$PROJECT_DIR$/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/config/WebSecurityConfig.java" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/config/ZipKinConfig.java" afterPath="$PROJECT_DIR$/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/config/ZipKinConfig.java" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-zuul/target/classes/com/eureka/me/zuul/ServiceZuulApplication.class" afterPath="$PROJECT_DIR$/eureka-me/service-zuul/target/classes/com/eureka/me/zuul/ServiceZuulApplication.class" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-zuul/target/classes/com/eureka/me/zuul/config/ServiceFallbackProvider$1.class" afterPath="$PROJECT_DIR$/eureka-me/service-zuul/target/classes/com/eureka/me/zuul/config/ServiceFallbackProvider$1.class" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-zuul/target/classes/com/eureka/me/zuul/config/ServiceFallbackProvider.class" afterPath="$PROJECT_DIR$/eureka-me/service-zuul/target/classes/com/eureka/me/zuul/config/ServiceFallbackProvider.class" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/classes/org/springframework/cloud/netflix/archaius/ArchaiusAutoConfiguration$PropagateEventsConfiguration.class" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/classes/org/springframework/cloud/netflix/archaius/ArchaiusAutoConfiguration$PropagateEventsConfiguration.class" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/classes/org/springframework/cloud/netflix/archaius/ArchaiusAutoConfiguration.class" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/classes/org/springframework/cloud/netflix/archaius/ArchaiusAutoConfiguration.class" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/classes/org/springframework/cloud/netflix/archaius/ArchaiusDelegatingProxyUtils.class" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/classes/org/springframework/cloud/netflix/archaius/ArchaiusDelegatingProxyUtils.class" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/classes/org/springframework/cloud/netflix/archaius/ArchaiusEndpoint.class" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/classes/org/springframework/cloud/netflix/archaius/ArchaiusEndpoint.class" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/classes/org/springframework/cloud/netflix/archaius/ConfigurableEnvironmentConfiguration.class" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/classes/org/springframework/cloud/netflix/archaius/ConfigurableEnvironmentConfiguration.class" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/test-classes/org/springframework/cloud/netflix/archaius/ArchaiusAutoConfigurationTests$1.class" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/test-classes/org/springframework/cloud/netflix/archaius/ArchaiusAutoConfigurationTests$1.class" />
+      <change beforePath="$PROJECT_DIR$/netflix-ribbon/ribbon-eureka/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/netflix-ribbon/ribbon-eureka/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/netflix-ribbon/ribbon-eureka/target/ribbon-eureka-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/netflix-ribbon/ribbon-eureka/target/ribbon-eureka-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/netflix-ribbon/ribbon-loadbalancer/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/netflix-ribbon/ribbon-loadbalancer/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/netflix-ribbon/ribbon-loadbalancer/target/ribbon-loadbalancer-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/netflix-ribbon/ribbon-loadbalancer/target/ribbon-loadbalancer-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/netflix-ribbon/ribbon-transport/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/netflix-ribbon/ribbon-transport/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/netflix-ribbon/ribbon-transport/target/ribbon-transport-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/netflix-ribbon/ribbon-transport/target/ribbon-transport-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/netflix-ribbon/ribbon/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/netflix-ribbon/ribbon/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/netflix-ribbon/ribbon/target/ribbon-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/netflix-ribbon/ribbon/target/ribbon-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/allclasses-frame.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/allclasses-frame.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/allclasses-noframe.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/constant-values.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/constant-values.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/deprecated-list.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/deprecated-list.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/help-doc.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/help-doc.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/index-all.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/index-all.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/index.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/index.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/ArchaiusAutoConfiguration.ArchaiusEndpointConfiguration.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/ArchaiusAutoConfiguration.ArchaiusEndpointConfiguration.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/ArchaiusAutoConfiguration.PropagateEventsConfiguration.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/ArchaiusAutoConfiguration.PropagateEventsConfiguration.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/ArchaiusAutoConfiguration.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/ArchaiusAutoConfiguration.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/ArchaiusDelegatingProxyUtils.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/ArchaiusDelegatingProxyUtils.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/ArchaiusEndpoint.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/ArchaiusEndpoint.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/ConfigurableEnvironmentConfiguration.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/ConfigurableEnvironmentConfiguration.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/class-use/ArchaiusAutoConfiguration.ArchaiusEndpointConfiguration.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/class-use/ArchaiusAutoConfiguration.ArchaiusEndpointConfiguration.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/class-use/ArchaiusAutoConfiguration.PropagateEventsConfiguration.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/class-use/ArchaiusAutoConfiguration.PropagateEventsConfiguration.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/class-use/ArchaiusAutoConfiguration.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/class-use/ArchaiusAutoConfiguration.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/class-use/ArchaiusDelegatingProxyUtils.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/class-use/ArchaiusDelegatingProxyUtils.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/class-use/ArchaiusEndpoint.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/class-use/ArchaiusEndpoint.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/class-use/ConfigurableEnvironmentConfiguration.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/class-use/ConfigurableEnvironmentConfiguration.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/package-frame.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/package-summary.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/package-tree.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/package-use.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/org/springframework/cloud/netflix/archaius/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/overview-tree.html" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/apidocs/overview-tree.html" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/spring-cloud-netflix-archaius-2.0.0.BUILD-SNAPSHOT-javadoc.jar" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/spring-cloud-netflix-archaius-2.0.0.BUILD-SNAPSHOT-javadoc.jar" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/spring-cloud-netflix-archaius-2.0.0.BUILD-SNAPSHOT-sources.jar" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/spring-cloud-netflix-archaius-2.0.0.BUILD-SNAPSHOT-sources.jar" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/spring-cloud-netflix-archaius-2.0.0.BUILD-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/spring-cloud-netflix-archaius-2.0.0.BUILD-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/surefire-reports/TEST-org.springframework.cloud.netflix.archaius.ArchaiusAutoConfigurationTests.xml" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/surefire-reports/TEST-org.springframework.cloud.netflix.archaius.ArchaiusAutoConfigurationTests.xml" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/surefire-reports/TEST-org.springframework.cloud.netflix.archaius.ArchaiusEndpointTests.xml" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/surefire-reports/TEST-org.springframework.cloud.netflix.archaius.ArchaiusEndpointTests.xml" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/surefire-reports/org.springframework.cloud.netflix.archaius.ArchaiusAutoConfigurationTests.txt" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/surefire-reports/org.springframework.cloud.netflix.archaius.ArchaiusAutoConfigurationTests.txt" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/surefire-reports/org.springframework.cloud.netflix.archaius.ArchaiusEndpointTests.txt" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/target/surefire-reports/org.springframework.cloud.netflix.archaius.ArchaiusEndpointTests.txt" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/.wro4j/buildContext.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/classes/static/eureka/css/wro.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/classes/static/eureka/js/wro.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-resources/static/eureka/css/wro.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-resources/static/eureka/js/wro.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/add-instance/curl-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/add-instance/http-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/add-instance/http-response.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/add-instance/httpie-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/add-instance/request-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/add-instance/response-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/all-apps/curl-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/all-apps/http-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/all-apps/http-response.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/all-apps/httpie-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/all-apps/request-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/all-apps/response-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/delete-instance/curl-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/delete-instance/http-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/delete-instance/http-response.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/delete-instance/httpie-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/delete-instance/request-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/delete-instance/response-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/delta/curl-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/delta/http-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/delta/http-response.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/delta/httpie-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/delta/request-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/delta/response-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/empty-apps/curl-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/empty-apps/http-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/empty-apps/http-response.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/empty-apps/httpie-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/empty-apps/request-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/empty-apps/response-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/lookup-instance/curl-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/lookup-instance/http-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/lookup-instance/http-response.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/lookup-instance/httpie-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/lookup-instance/request-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/lookup-instance/response-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/one-instance/curl-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/one-instance/http-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/one-instance/http-response.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/one-instance/httpie-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/one-instance/request-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/one-instance/response-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/renew/curl-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/renew/http-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/renew/http-response.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/renew/httpie-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/renew/request-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/renew/response-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/server-status/curl-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/server-status/http-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/server-status/http-response.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/server-status/httpie-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/server-status/request-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/server-status/response-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/set-status/curl-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/set-status/http-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/set-status/http-response.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/set-status/httpie-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/set-status/request-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/set-status/response-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/starting-app/curl-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/starting-app/http-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/starting-app/http-response.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/starting-app/httpie-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/starting-app/request-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/starting-app/response-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/stubs/add-instance.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/stubs/all-apps.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/stubs/delete-instance.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/stubs/delta.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/stubs/empty-apps.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/stubs/lookup-instance.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/stubs/one-instance.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/stubs/renew.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/stubs/server-status.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/stubs/set-status.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/stubs/starting-app.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/stubs/update-metadata.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/update-metadata/curl-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/update-metadata/http-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/update-metadata/http-response.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/update-metadata/httpie-request.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/update-metadata/request-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/generated-snippets/update-metadata/response-body.adoc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/TEST-org.springframework.cloud.netflix.eureka.server.ApplicationContextTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/TEST-org.springframework.cloud.netflix.eureka.server.ApplicationDashboardDisabledTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/TEST-org.springframework.cloud.netflix.eureka.server.ApplicationDashboardPathTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/TEST-org.springframework.cloud.netflix.eureka.server.ApplicationServletPathTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/TEST-org.springframework.cloud.netflix.eureka.server.ApplicationTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/TEST-org.springframework.cloud.netflix.eureka.server.EurekaControllerReplicasTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/TEST-org.springframework.cloud.netflix.eureka.server.EurekaControllerTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/TEST-org.springframework.cloud.netflix.eureka.server.EurekaCustomPeerNodesTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/TEST-org.springframework.cloud.netflix.eureka.server.InstanceRegistryTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/TEST-org.springframework.cloud.netflix.eureka.server.RefreshablePeerEurekaNodesTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/TEST-org.springframework.cloud.netflix.eureka.server.doc.AppRegistrationTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/TEST-org.springframework.cloud.netflix.eureka.server.doc.EurekaServerTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/org.springframework.cloud.netflix.eureka.server.ApplicationContextTests.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/org.springframework.cloud.netflix.eureka.server.ApplicationDashboardDisabledTests.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/org.springframework.cloud.netflix.eureka.server.ApplicationDashboardPathTests.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/org.springframework.cloud.netflix.eureka.server.ApplicationServletPathTests.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/org.springframework.cloud.netflix.eureka.server.ApplicationTests.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/org.springframework.cloud.netflix.eureka.server.EurekaControllerReplicasTests.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/org.springframework.cloud.netflix.eureka.server.EurekaControllerTests.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/org.springframework.cloud.netflix.eureka.server.EurekaCustomPeerNodesTests.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/org.springframework.cloud.netflix.eureka.server.InstanceRegistryTests.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/org.springframework.cloud.netflix.eureka.server.RefreshablePeerEurekaNodesTests.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/org.springframework.cloud.netflix.eureka.server.doc.AppRegistrationTests.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/surefire-reports/org.springframework.cloud.netflix.eureka.server.doc.EurekaServerTests.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/wro/header.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/wro/main.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/wro/responsive.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/wro/typography.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/wro/wro.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/target/wro/wro.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-hystrix-stream/spring-cloud-netflix-hystrix-stream.iml" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-hystrix-stream/spring-cloud-netflix-hystrix-stream.iml" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-zuul/target/classes/META-INF/spring-configuration-metadata.json" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-zuul/target/classes/META-INF/spring-configuration-metadata.json" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka-me/service-client/target/" />
     <ignored path="$PROJECT_DIR$/eureka-me/service-client1/target/" />
@@ -173,7 +375,28 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eureka-me/service-zuul/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-me/service-ribbon/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="97" column="21" lean-forward="true" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -184,9 +407,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ribbon.version</find>
-      <find>eurekaServerBootstrap</find>
-      <find>1.7</find>
       <find>com.netflix.hystrix</find>
       <find>eureka</find>
       <find>ServiceServerApplication</find>
@@ -207,13 +427,16 @@
       <find>freemarker</find>
       <find>eclipse</find>
       <find>maven-eclipse-plugin</find>
-      <find>1.5.8</find>
       <find>auditorAware</find>
       <find>RelaxedPropertyResolver</find>
       <find>1.2.2</find>
       <find>`</find>
       <find>CounterFactory</find>
       <find>SysAuthority</find>
+      <find>hibernate</find>
+      <find>1.5.8</find>
+      <find>select</find>
+      <find>Server.host</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/spring-cloud-netflix</dir>
@@ -239,7 +462,6 @@
         <option value="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/src/test/java/org/springframework/cloud/netflix/eureka/server/RefreshablePeerEurekaNodesTests.java" />
         <option value="$PROJECT_DIR$/eureka-me/service-server/src/main/java/com/eureke/me/server/ServiceServerApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-server/src/main/java/org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/eureka-me/service-oauth/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-netflix/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-me/service-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-me/service-server/pom.xml" />
@@ -249,14 +471,8 @@
         <option value="$PROJECT_DIR$/eureka-me/service-server1/src/main/java/serviceserver1/serviceserver1/ServiceServer1Application.java" />
         <option value="$PROJECT_DIR$/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/config/ServiceFallbackProvider.java" />
-        <option value="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/security/SecurityUtils.java" />
         <option value="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/domain/AuditorAwareImpl.java" />
-        <option value="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/eureka-me/service-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/ServiceZuulApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-me/service-oauth/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/OauthApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/AuditorAwareImpl.java" />
         <option value="$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/config/ClientConfig.java" />
         <option value="$PROJECT_DIR$/eureka-me/service-client/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/config/ResourcesServerConfig.java" />
@@ -271,6 +487,22 @@
         <option value="$PROJECT_DIR$/eureka-me/service-client1/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-me/service-client1/src/main/java/com/eureka/me/client/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/eureka-me/service-ribbon/src/main/java/com/eureka/me/ribbon/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/security/DomainUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/AuditorAwareImpl.java" />
+        <option value="$PROJECT_DIR$/eureka-me/service-oauth/src/test/java/com/eureka/build/oauth/OauthApplicationTests.java" />
+        <option value="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/AuthorizationServerConfig.java" />
+        <option value="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/security/SecurityUtils.java" />
+        <option value="$PROJECT_DIR$/eureka-me/service-ribbon/src/main/java/com/eureka/me/ribbon/ServiceRibbonApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/common/DomainUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/ResourceServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/BeanConfig.java" />
+        <option value="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/repository/support/WiselyRepository.java" />
+        <option value="$PROJECT_DIR$/eureka-me/service-oauth/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/OauthApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-me/service-oauth/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-me/service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-me/service-ribbon/pom.xml" />
       </list>
     </option>
   </component>
@@ -294,35 +526,22 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="service-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="ribbon-eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="service-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="service-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-autoconfigure:2.0.1.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="service-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-autoconfigure:2.0.1.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.boot:spring-boot:2.0.1.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="ribbon-eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1567" />
-    <option name="y" value="325" />
-    <option name="width" value="1370" />
-    <option name="height" value="741" />
+    <option name="x" value="-4" />
+    <option name="y" value="25" />
+    <option name="width" value="1288" />
+    <option name="height" value="1003" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -343,8 +562,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -385,29 +604,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -419,12 +616,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-me/service-client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../net" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.39655173" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
@@ -439,6 +636,7 @@
       <recent name="config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config" />
       <recent name="$PROJECT_DIR$/eureka-me/service-server/src/main/resources" />
     </key>
   </component>
@@ -458,9 +656,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.25723737" />
+    <option name="contentProportion" value="0.26468155" />
   </component>
-  <component name="RunManager" selected="Application.ServiceZuulApplication">
+  <component name="RunManager" selected="Spring Boot.OauthApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -500,6 +698,31 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="OauthApplicationTests.testPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.eureka.build.oauth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="service-oauth" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.eureka.build.oauth" />
+      <option name="MAIN_CLASS_NAME" value="com.eureka.build.oauth.OauthApplicationTests" />
+      <option name="METHOD_NAME" value="testPass" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="RefreshablePeerEurekaNodesTests.notUpdatedWhenDnsIsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -631,7 +854,7 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="7">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.ServiceServerApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.OauthApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.ServiceZuulApplication" />
@@ -639,11 +862,13 @@
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.ServiceClient1Application" />
       <item index="5" class="java.lang.String" itemvalue="JUnit.RefreshablePeerEurekaNodesTests.notUpdatedWhenDnsIsTrue" />
       <item index="6" class="java.lang.String" itemvalue="Application.ServiceZuulApplication" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.OauthApplicationTests.testPass" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.ServiceZuulApplication" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RefreshablePeerEurekaNodesTests.notUpdatedWhenDnsIsTrue" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.OauthApplicationTests.testPass" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ServiceZuulApplication" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RefreshablePeerEurekaNodesTests.notUpdatedWhenDnsIsTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -667,11 +892,31 @@
       <workItem from="1525050612167" duration="355000" />
       <workItem from="1525309338987" duration="3597000" />
       <workItem from="1525314632534" duration="12977000" />
-      <workItem from="1525331118274" duration="47000" />
+      <workItem from="1525331118274" duration="4411000" />
+      <workItem from="1525335571530" duration="6697000" />
+      <workItem from="1525342530542" duration="2454000" />
+      <workItem from="1525395250381" duration="5675000" />
+      <workItem from="1525400971420" duration="169000" />
+      <workItem from="1525401213833" duration="1614000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="OauthApplicationTests_testPass - 2018.05.03 at 16h 32m 32s.xml">
+      <configuration name="OauthApplicationTests.testPass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OauthApplicationTests_testPass - 2018.05.03 at 16h 48m 32s.xml">
+      <configuration name="OauthApplicationTests.testPass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OauthApplicationTests_testPass - 2018.05.03 at 16h 48m 54s.xml">
+      <configuration name="OauthApplicationTests.testPass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OauthApplicationTests_testPass - 2018.05.03 at 16h 49m 00s.xml">
+      <configuration name="OauthApplicationTests.testPass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OauthApplicationTests_testPass - 2018.05.03 at 17h 12m 22s.xml">
+      <configuration name="OauthApplicationTests.testPass" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="RefreshablePeerEurekaNodesTests_notUpdatedWhenDnsIsTrue - 2018.04.30 at 08h 06m 22s.xml">
       <configuration name="RefreshablePeerEurekaNodesTests.notUpdatedWhenDnsIsTrue" configurationId="JUnit" />
     </history-entry>
@@ -683,7 +928,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28381000" />
+    <option name="totallyTimeSpent" value="49354000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -695,32 +940,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1567" y="325" width="1288" height="1003" extended-state="6" />
+    <frame x="-4" y="25" width="1288" height="1003" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3985043" sideWeight="0.50692225" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37015945" sideWeight="0.4978701" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37471527" sideWeight="0.4978701" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37015945" sideWeight="0.4978701" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5273312" sideWeight="0.4978701" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6688034" sideWeight="0.4968051" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6685649" sideWeight="0.4968051" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2609047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34329563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24943052" sideWeight="0.5" order="13" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3985043" sideWeight="0.49307775" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39749432" sideWeight="0.49307775" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6688034" sideWeight="0.50319487" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24943052" sideWeight="0.5" order="13" side_tool="false" content_ui="combo" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -731,10 +976,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netflix-ribbon/ribbon-loadbalancer/src/main/java/com/netflix/client/AbstractLoadBalancerAwareClient.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="11" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -744,377 +997,358 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-zuul/pom.xml">
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-ribbon/src/main/java/com/eureka/me/ribbon/config/RibbonConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="80" column="31" lean-forward="true" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+        <state relative-caret-position="748">
+          <caret line="55" column="6" lean-forward="false" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-starter-netflix/spring-cloud-starter-netflix-zuul/pom.xml">
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-ribbon/src/main/java/com/eureka/me/ribbon/service/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="309">
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/m2/org/springframework/cloud/spring-cloud-commons/2.0.0.RC1/spring-cloud-commons-2.0.0.RC1.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class">
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-ribbon/src/main/java/com/eureka/me/ribbon/ServiceRibbonApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="221">
+          <caret line="13" column="50" lean-forward="false" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-zuul/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-client/src/main/java/org/springframework/cloud/netflix/ribbon/eureka/EurekaRibbonClientConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="55" column="34" lean-forward="false" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="-697">
+          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/config/ZipKinConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="39" column="45" lean-forward="false" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/AuditorAwareImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/config/JsonKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/config/FancyDataSourceProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-890">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/config/PageableConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/config/UserTypeAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/domain/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/domain/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/repository/TeacherRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/repository/StudentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/repository/JpaTeacherRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/service/AuthorSearchCriteria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/config/ZipkinConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/service/AuthorRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-ribbon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/ServiceClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="33" column="14" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/config/ResourcesServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/config/ClientConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-ribbon/src/main/java/org/springframework/cloud/netflix/ribbon/RibbonAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="12" />
+          <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client1/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-client/src/main/java/org/springframework/cloud/netflix/ribbon/eureka/EurekaServerIntrospector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="102">
+          <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client1/src/main/java/com/eureka/me/client/ServiceClient1Application.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-ribbon/src/main/java/org/springframework/cloud/netflix/ribbon/DefaultServerIntrospector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="153">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1571">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-client/src/main/java/org/springframework/cloud/netflix/ribbon/eureka/RibbonEurekaAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-server/src/main/java/com/eureke/me/server/ServiceServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-client/src/main/java/org/springframework/cloud/netflix/ribbon/eureka/ConditionalOnRibbonAndEurekaEnabled.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netflix-ribbon/ribbon-eureka/src/main/java/com/netflix/niws/loadbalancer/DiscoveryEnabledNIWSServerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netflix-ribbon/ribbon-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/security/SecurityUtils.java" />
+    <entry file="jar://$USER_HOME$/m2/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/AuthorizationServerConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/AuthorizationServerConfig.java" />
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/endpoint/RevokeTokenEndpoint.java" />
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/ResourceConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/SecurityConfig.java" />
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/ClientResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/SecurityConfigAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/ResourceServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client/src/main/java/com/eureka/me/client/controller/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/repository/support/WiselyRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/domain/SysRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/endpoint/RevokeTokenEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="59">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/repository/support/ByExampleSpecification.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/repository/support/ByRangeSpecification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-383">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="68">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/repository/support/Range.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1062">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/common/DomainUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/BeanConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/domain/SysAuthority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/domain/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/domain/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-365">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/repository/SysUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/repository/SysRoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/repository/SysAuthotityRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/repository/support/WiselyRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/OauthApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="255">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="994">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/util/Constants.java">
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="294">
+          <caret line="36" column="15" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/security/SecurityUtils.java">
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/config/MyFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="-301">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/domain/SysAuthority.java">
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/config/OauthResourceServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="170">
+          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/m2/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE-sources.jar!/org/springframework/security/core/authority/SimpleGrantedAuthority.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/domain/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/config/ServiceFallbackProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/AuthorizationServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-532">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/ResourceConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/config/SecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/config/ZipKinConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="-349">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-oauth/src/main/java/com/eureka/build/oauth/security/DomainUserDetailsService.java">
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-ribbon/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client1/src/main/java/com/eureka/me/client/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-client1/src/main/java/com/eureka/me/client/config/ResourcesServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="-63">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-zuul/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/netflix-ribbon/ribbon-loadbalancer/src/main/java/com/netflix/client/AbstractLoadBalancerAwareClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="276">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-me/service-ribbon/src/main/java/com/eureka/me/ribbon/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="46" column="42" lean-forward="false" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/ServiceZuulApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="97" column="21" lean-forward="true" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-me/service-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

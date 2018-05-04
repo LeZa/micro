@@ -1,7 +1,0 @@
-[source,http,options="nowrap"]
-----
-PUT /eureka/apps/FOO/a8c3899b-8109-4f95-83cd-92f3e56a8217 HTTP/1.1
-Accept: application/json
-Host: eureka.example.com
-
-----

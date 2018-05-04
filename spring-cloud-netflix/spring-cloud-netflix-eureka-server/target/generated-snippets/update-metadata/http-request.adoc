@@ -1,9 +1,0 @@
-[source,http,options="nowrap"]
-----
-PUT /eureka/apps/FOO/f78f2647-de25-4ba4-aac3-d3457bfd0e9d/metadata?key=value HTTP/1.1
-Accept: application/json
-Host: eureka.example.com
-Content-Type: application/x-www-form-urlencoded
-
-key=value
-----

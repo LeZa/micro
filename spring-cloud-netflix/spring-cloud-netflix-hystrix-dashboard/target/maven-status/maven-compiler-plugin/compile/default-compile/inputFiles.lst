@@ -1,0 +1,4 @@
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-hystrix-dashboard/src/main/java/org/springframework/cloud/netflix/hystrix/dashboard/EnableHystrixDashboard.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-hystrix-dashboard/src/main/java/org/springframework/cloud/netflix/hystrix/dashboard/HystrixDashboardConfiguration.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-hystrix-dashboard/src/main/java/org/springframework/cloud/netflix/hystrix/dashboard/HystrixDashboardController.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-hystrix-dashboard/src/main/java/org/springframework/cloud/netflix/hystrix/dashboard/HystrixDashboardProperties.java

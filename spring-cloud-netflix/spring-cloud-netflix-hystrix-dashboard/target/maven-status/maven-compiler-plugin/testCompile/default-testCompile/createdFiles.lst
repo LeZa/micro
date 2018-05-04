@@ -1,0 +1,7 @@
+org/springframework/cloud/netflix/hystrix/dashboard/HystrixDashboardContextTests$Application.class
+org/springframework/cloud/netflix/hystrix/dashboard/HystrixDashboardHomePageTests$Application.class
+org/springframework/cloud/netflix/hystrix/dashboard/HystrixDashboardConfigurationTests.class
+org/springframework/cloud/netflix/hystrix/dashboard/HystrixDashboardTests$Application.class
+org/springframework/cloud/netflix/hystrix/dashboard/HystrixDashboardTests.class
+org/springframework/cloud/netflix/hystrix/dashboard/HystrixDashboardContextTests.class
+org/springframework/cloud/netflix/hystrix/dashboard/HystrixDashboardHomePageTests.class

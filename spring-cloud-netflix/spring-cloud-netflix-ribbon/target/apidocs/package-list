@@ -1,0 +1,4 @@
+org.springframework.cloud.netflix.ribbon
+org.springframework.cloud.netflix.ribbon.apache
+org.springframework.cloud.netflix.ribbon.okhttp
+org.springframework.cloud.netflix.ribbon.support

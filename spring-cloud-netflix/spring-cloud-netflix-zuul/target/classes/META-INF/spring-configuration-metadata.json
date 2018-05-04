@@ -86,6 +86,54 @@
       "type": "java.lang.Boolean"
     },
     {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "defaultValue": 2000,
+      "name": "zuul.host.connect-timeout-millis",
+      "description": "The connection timeout in millis. Defaults to 2000.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "defaultValue": -1,
+      "name": "zuul.host.connection-request-timeout-millis",
+      "description": "The timeout in milliseconds used when requesting a connection\n from the connection manager. Defaults to -1, undefined use the system default.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "defaultValue": 20,
+      "name": "zuul.host.max-per-route-connections",
+      "description": "The maximum number of connections that can be used by a single route.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "defaultValue": 200,
+      "name": "zuul.host.max-total-connections",
+      "description": "The maximum number of total connections the proxy can hold open to backends.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "defaultValue": 10000,
+      "name": "zuul.host.socket-timeout-millis",
+      "description": "The socket timeout in millis. Defaults to 10000.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "defaultValue": -1,
+      "name": "zuul.host.time-to-live",
+      "description": "The lifetime for the connection pool.",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "name": "zuul.host.time-unit",
+      "description": "The time unit for timeToLive.",
+      "type": "java.util.concurrent.TimeUnit"
+    },
+    {
       "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
       "defaultValue": true,
       "name": "zuul.ignore-local-service",
@@ -162,6 +210,13 @@
       "type": "java.util.Map<java.lang.String,org.springframework.cloud.netflix.zuul.filters.ZuulProperties.ZuulRoute>"
     },
     {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixSemaphore",
+      "defaultValue": 100,
+      "name": "zuul.semaphore.max-semaphores",
+      "description": "The maximum number of total semaphores for Hystrix.",
+      "type": "java.lang.Integer"
+    },
+    {
       "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
       "name": "zuul.sensitive-headers",
       "description": "List of sensitive headers that are not passed to downstream requests. Defaults to a\n \"safe\" set of headers that commonly contain user credentials. It's OK to remove\n those from the list if the downstream service is part of the same system as the\n proxy, so they are sharing authentication data. If using a physical URL outside\n your own domain, then generally it would be a bad idea to leak user credentials.",
@@ -193,6 +248,20 @@
       "defaultValue": true,
       "name": "zuul.strip-prefix",
       "description": "Flag saying whether to strip the prefix from the path before forwarding.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixThreadPool",
+      "defaultValue": "",
+      "name": "zuul.thread-pool.thread-pool-key-prefix",
+      "description": "A prefix for HystrixThreadPoolKey of hystrix's thread pool that is allocated to each service Id.\n This property is only applicable when using THREAD as ribbonIsolationStrategy and useSeparateThreadPools = true",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixThreadPool",
+      "defaultValue": false,
+      "name": "zuul.thread-pool.use-separate-thread-pools",
+      "description": "Flag to determine whether RibbonCommands should use separate thread pools for hystrix.\n By setting to true, RibbonCommands will be executed in a hystrix's thread pool that it is associated with.\n Each RibbonCommand will be associated with a thread pool according to its commandKey (serviceId).\n As default, all commands will be executed in a single thread pool whose threadPoolKey is \"RibbonCommand\".\n This property is only applicable when using THREAD as ribbonIsolationStrategy",
       "type": "java.lang.Boolean"
     },
     {

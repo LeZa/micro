@@ -1,5 +1,0 @@
-[source,bash]
-----
-$ http GET 'http://eureka.example.com/eureka/apps/delta' \
-    'Accept:application/json'
-----

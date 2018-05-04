@@ -1,0 +1,7 @@
+org/springframework/cloud/netflix/hystrix/dashboard/EnableHystrixDashboard.class
+org/springframework/cloud/netflix/hystrix/dashboard/HystrixDashboardConfiguration.class
+org/springframework/cloud/netflix/hystrix/dashboard/HystrixDashboardProperties.class
+META-INF/spring-configuration-metadata.json
+org/springframework/cloud/netflix/hystrix/dashboard/HystrixDashboardController.class
+org/springframework/cloud/netflix/hystrix/dashboard/HystrixDashboardConfiguration$ProxyStreamServlet.class
+org/springframework/cloud/netflix/hystrix/dashboard/HystrixDashboardConfiguration$ProxyStreamServlet$ProxyConnectionManager.class

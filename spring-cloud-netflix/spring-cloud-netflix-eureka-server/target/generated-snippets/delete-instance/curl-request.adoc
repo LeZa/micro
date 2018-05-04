@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ curl 'http://eureka.example.com/eureka/apps/FOO/be4a9f22-b887-41d1-a427-1103cf888695' -i -X DELETE
-----

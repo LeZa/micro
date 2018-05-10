@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-me/service-oauth/service-oauth.iml" filepath="$PROJECT_DIR$/eureka-me/service-oauth/service-oauth.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-me/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/eureka-me/service-ribbon/service-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-me/service-server/service-server.iml" filepath="$PROJECT_DIR$/eureka-me/service-server/service-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-token/service-token.iml" filepath="$PROJECT_DIR$/service-token/service-token.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-me/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/eureka-me/service-zuul/service-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix.iml" filepath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/spring-cloud-netflix-archaius.iml" filepath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-archaius/spring-cloud-netflix-archaius.iml" />

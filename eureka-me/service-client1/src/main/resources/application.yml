@@ -3,20 +3,11 @@ server:
 
 spring:
   application:
-      name: service-client1
+      name: service-client
 
 eureka:
   instance:
     lease-renewal-interval-in-seconds: 30
   client:
     serviceUrl:
-      defaultZone: http://localhost:7860/eureka/
-
-security:
-  oauth2:
-    resource:
-      id: service-client
-      user-info-uri: http://localhost:7869/uaa/user
-      prefer-token-info: false
-
-logging.level.org.springframework.security: DEBUG
+      defaultZone: http://192.168.89.87:7860/eureka/

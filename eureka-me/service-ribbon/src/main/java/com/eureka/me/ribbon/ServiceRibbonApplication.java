@@ -4,16 +4,17 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
-import org.springframework.cloud.netflix.eureka.*;
 import org.springframework.context.annotation.Bean;
-import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class ServiceRibbonApplication {
 
+    /**
+     * @Description  @LoadBalanced实现负载均衡,且定义客户端
+     * @return
+     */
     @LoadBalanced
     @Bean
     RestTemplate restTemplate() {

@@ -3,7 +3,7 @@ package com.eureka.me.ribbon.controller;
 import com.eureka.me.ribbon.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
-import org.springframework.security.access.prepost.PreAuthorize;
+/*import org.springframework.security.access.prepost.PreAuthorize;*/
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -25,12 +25,12 @@ public class HelloController {
     private RestTemplate restTemplate;
 
     @RequestMapping(value = "/hi")
-    @PreAuthorize("hasAuthority('has_query')")
     public String hi(@RequestParam String name,HttpServletRequest request){
 
-        String access_token = request.getParameter("access_token");
+      /*  String access_token = request.getParameter("access_token");*/
         this.loadBalancerClient.choose("service-client");
-        String resultStr = restTemplate.getForObject("http://service-client/hi?name="+name+"&access_token="+access_token,String.class);
+//        String resultStr = restTemplate.getForObject("http://service-client/hi?name="+name+"&access_token="+access_token,String.class);
+        String resultStr = restTemplate.getForObject("http://service-client/hi?name="+name,String.class);
         return resultStr;
     }
 
@@ -44,7 +44,6 @@ public class HelloController {
     }
 
     @GetMapping(value = "/hi1")
-    @PreAuthorize("hasAuthority('has_query')")
     public String hiHystrix(@RequestParam String name){
         return "static";
     }

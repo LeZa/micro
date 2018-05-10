@@ -1,5 +1,6 @@
 package com.eureka.me.zuul.config;
 
+import com.google.gson.*;
 import org.springframework.cloud.netflix.zuul.filters.route.FallbackProvider;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -10,6 +11,7 @@ import org.springframework.stereotype.Component;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.*;
 
 @Component
 public class ServiceFallbackProvider
@@ -45,7 +47,12 @@ public class ServiceFallbackProvider
 
             @Override
             public InputStream getBody() throws IOException {
-                return new ByteArrayInputStream("服务故障，请稍后重试!".getBytes());
+                  Map<String,Object> resultMap =  new HashMap<String,Object>();
+                  resultMap.put("msg","服务加载中,请稍候");
+                  resultMap.put("code","0");
+                  resultMap.put("data",new ArrayList());
+                  String responseStr =  new Gson().toJson(resultMap);
+                return new ByteArrayInputStream(responseStr.getBytes());
             }
 
             @Override

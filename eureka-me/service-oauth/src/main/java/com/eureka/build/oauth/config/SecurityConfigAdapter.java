@@ -1,13 +1,18 @@
 package com.eureka.build.oauth.config;
 
 import org.springframework.beans.factory.annotation.*;
+import org.springframework.context.annotation.*;
 import org.springframework.core.annotation.*;
+import org.springframework.security.authentication.*;
 import org.springframework.security.config.annotation.authentication.builders.*;
+import org.springframework.security.config.annotation.web.builders.*;
 import org.springframework.security.config.annotation.web.configuration.*;
 import org.springframework.security.core.userdetails.*;
 import org.springframework.security.crypto.password.*;
 
 @Order(200)
+@Configuration
+@EnableWebSecurity
 public class SecurityConfigAdapter
     extends WebSecurityConfigurerAdapter {
 
@@ -18,10 +23,25 @@ public class SecurityConfigAdapter
     private PasswordEncoder passwordEncoder;
 
     @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http.
+                authorizeRequests()
+                .antMatchers("/error").permitAll()
+                .anyRequest().authenticated();
+    }
+
+    @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth
                 .userDetailsService(userDetailsService)
                 .passwordEncoder(passwordEncoder);
+    }
+
+
+    @Bean("authenticationManager")
+    @Override
+    public AuthenticationManager authenticationManagerBean() throws Exception {
+        return super.authenticationManagerBean();
     }
 
 

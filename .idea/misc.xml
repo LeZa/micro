@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/eureka-me/service-oauth/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-me/service-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-me/service-client1/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-token/pom.xml" />
       </list>
     </option>
   </component>

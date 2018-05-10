@@ -47,7 +47,7 @@ public class AuthorizationServerConfig
         clients.inMemory()
                 .withClient("oauth")
                 .secret("oauth")
-                .scopes("read,write")
+                .scopes("xx")
                 .authorizedGrantTypes("password", "authorization_code", "refresh_token")
             .and()
                 .withClient("webapp")

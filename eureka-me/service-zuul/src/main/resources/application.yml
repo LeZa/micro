@@ -20,14 +20,8 @@ zuul:
       path: /api-a/**
       sensitiveHeaders:
       serviceId: service-ribbon
-  add-proxy-headers: true
-
-security:
-    oauth2:
-      client:
-            access-token-uri: http://localhost:7869/uaa/oauth/token
-            user-authorization-uri: http://localhost:7869/uaa/oauth/authorize
-            client-id: webapp
-      resource:
-        user-info-uri: http://localhost:7869/uaa/user
-        prefer-token-info: false
+   token:
+      path: /token/**
+      sensitiveHeaders:
+      serviceId: service-token
+  add-proxy-headers: false

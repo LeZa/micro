@@ -1,0 +1,13 @@
+server:
+  port: 7866
+
+spring:
+  application:
+      name: service-token
+
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 30
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.89.87:7860/eureka/

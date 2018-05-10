@@ -269,7 +269,7 @@ public class BaseLoadBalancer extends AbstractLoadBalancer implements
     /**
      * Set the name for the load balancer. This should not be called since name
      * should be immutable after initialization. Calling this method does not
-     * guarantee that all other data structures that depend on this name will be
+     * guarantee that all other data structures that depend on this name will ben
      * changed accordingly.
      */
     void setName(String name) {

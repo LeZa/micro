@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : com.netflix.eureka : eureka-server-0.1.0-dev.0.uncommitted.war">
+    <output-path>$PROJECT_DIR$/eureka-master/eureka-server/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$/eureka-master" />
+    </properties>
+    <root id="archive" name="eureka-server-0.1.0-dev.0.uncommitted.war">
+      <element id="artifact" artifact-name="Gradle : com.netflix.eureka : eureka-server-0.1.0-dev.0.uncommitted.war (exploded)" />
+    </root>
+  </artifact>
+</component>

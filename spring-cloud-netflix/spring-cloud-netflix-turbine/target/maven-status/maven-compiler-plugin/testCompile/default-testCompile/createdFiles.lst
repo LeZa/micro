@@ -1,0 +1,8 @@
+org/springframework/cloud/netflix/turbine/TurbineHttpTests$TurbineHttpSampleApplication.class
+org/springframework/cloud/netflix/turbine/ConfigurationBasedTurbineClustersProviderTest.class
+org/springframework/cloud/netflix/turbine/EurekaBasedTurbineClustersProviderTest.class
+org/springframework/cloud/netflix/turbine/TurbineHttpTests.class
+org/springframework/cloud/netflix/turbine/EurekaInstanceDiscoveryTests.class
+org/springframework/cloud/netflix/turbine/CommonsInstanceDiscoveryTests.class
+org/springframework/cloud/netflix/turbine/TurbineAggregatorPropertiesTest$TestConfiguration.class
+org/springframework/cloud/netflix/turbine/TurbineAggregatorPropertiesTest.class

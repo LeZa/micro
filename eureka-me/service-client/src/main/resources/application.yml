@@ -26,11 +26,5 @@ jdbc:
     password: 12345678
 
 
-security:
-  oauth2:
-    resource:
-      id: service-client
-      user-info-uri: http://localhost:7869/uaa/user
-      prefer-token-info: false
 
 logging.level.org.springframework.security: DEBUG

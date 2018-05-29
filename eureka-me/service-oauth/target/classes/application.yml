@@ -21,15 +21,6 @@ spring:
 server:
   port: 7551
 
-security:
-  oauth2:
-    client:
-      client-id: acme
-      client-secret: acmesecret
-      scope: read,write
-      auto-approve-scopes: '.*'
-
-
 eureka:
   instance:
     lease-renewal-interval-in-seconds: 30
@@ -40,6 +31,9 @@ eureka:
 logging:
   level:
     org.springframework.security: DEBUG
+    org.springframework.web: DEBUG
+
+
 
 
 

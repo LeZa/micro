@@ -63,7 +63,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.ZonePreferenceServerListFilterTests" name="withZoneSetAndMatches" time="0.001"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.ZonePreferenceServerListFilterTests" name="withZoneSetAndMatches" time="0.002"/>
   <testcase classname="org.springframework.cloud.netflix.ribbon.ZonePreferenceServerListFilterTests" name="noZoneSet" time="0"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.ZonePreferenceServerListFilterTests" name="withZoneSetAndNoMatches" time="0.001"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.ZonePreferenceServerListFilterTests" name="withZoneSetAndNoMatches" time="0"/>
 </testsuite>

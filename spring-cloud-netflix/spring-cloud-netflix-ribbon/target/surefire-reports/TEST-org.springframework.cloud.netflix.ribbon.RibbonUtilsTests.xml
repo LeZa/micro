@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="0" name="org.springframework.cloud.netflix.ribbon.RibbonUtilsTests" time="0.023" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="org.springframework.cloud.netflix.ribbon.RibbonUtilsTests" time="0.016" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2017.3.4"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -65,14 +65,14 @@
   </properties>
   <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonUtilsTests" name="uriIsNotChangedWhenServerIsNotSecured" time="0.001"/>
   <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonUtilsTests" name="isSecureRibbonPropNonSecureIntrospector" time="0"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonUtilsTests" name="shouldUpgradeUriToWssWhenServerIsSecureAndUriNotInWss" time="0.018"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonUtilsTests" name="shouldUpgradeUriToWssWhenServerIsSecureAndUriNotInWss" time="0.012"/>
   <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonUtilsTests" name="nonSecureRibbonPropNonSecureIntrospector" time="0"/>
   <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonUtilsTests" name="noRibbonPropNonSecureIntrospector" time="0"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonUtilsTests" name="shouldSubstitutePlusInQueryParam" time="0.003"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonUtilsTests" name="shouldUpgradeUriToHttpsWhenServerIsSecureAndUriNotInHttps" time="0"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonUtilsTests" name="shouldSubstitutePlusInQueryParam" time="0.002"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonUtilsTests" name="shouldUpgradeUriToHttpsWhenServerIsSecureAndUriNotInHttps" time="0.001"/>
   <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonUtilsTests" name="isSecureRibbonPropSecureIntrospector" time="0"/>
   <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonUtilsTests" name="noRibbonPropSecureIntrospector" time="0"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonUtilsTests" name="emptyStringUri" time="0.001"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonUtilsTests" name="emptyStringUri" time="0"/>
   <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonUtilsTests" name="uriIsNotChangedWhenServerIsSecuredAndUriAlreadyInHttps" time="0"/>
   <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonUtilsTests" name="nonSecureRibbonPropSecureIntrospector" time="0"/>
 </testsuite>

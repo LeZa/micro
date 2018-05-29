@@ -1,6 +1,0 @@
-/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-hystrix-stream/src/test/java/org/springframework/cloud/netflix/hystrix/stream/HystrixStreamAutoConfigurationTests.java
-/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-hystrix-stream/src/test/java/org/springframework/cloud/netflix/hystrix/stream/HystrixStreamAutoConfigurationNoRegistrationTests.java
-/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-hystrix-stream/src/test/java/org/springframework/cloud/netflix/hystrix/stream/HystrixStreamTaskTests.java
-/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-hystrix-stream/src/test/java/org/springframework/cloud/netflix/hystrix/stream/StreamSourceTestBase.java
-/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-hystrix-stream/src/test/java/org/springframework/cloud/netflix/hystrix/stream/HystrixStreamTests.java
-/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-hystrix-stream/target/generated-test-sources/contracts/org/springframework/cloud/contract/verifier/tests/ContractVerifierTest.java

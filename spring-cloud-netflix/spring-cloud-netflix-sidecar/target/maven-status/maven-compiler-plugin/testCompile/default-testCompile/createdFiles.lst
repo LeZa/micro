@@ -1,0 +1,7 @@
+org/springframework/cloud/netflix/sidecar/LocalApplicationHealthCheckHandlerTests.class
+org/springframework/cloud/netflix/sidecar/SidecarApplication.class
+org/springframework/cloud/netflix/sidecar/SidecarApplicationTests$NewPropertyEurekaTestConfigBeanTest.class
+org/springframework/cloud/netflix/sidecar/SidecarApplicationTests$BothPropertiesEurekaTestConfigBeanTest.class
+org/springframework/cloud/netflix/sidecar/SidecarApplicationTests.class
+org/springframework/cloud/netflix/sidecar/SidecarApplicationTests$PreferIpAddressTest.class
+org/springframework/cloud/netflix/sidecar/SidecarApplicationTests$EurekaTestConfigBeanTest.class

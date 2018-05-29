@@ -1,0 +1,6 @@
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-turbine/src/test/java/org/springframework/cloud/netflix/turbine/EurekaBasedTurbineClustersProviderTest.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-turbine/src/test/java/org/springframework/cloud/netflix/turbine/TurbineHttpTests.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-turbine/src/test/java/org/springframework/cloud/netflix/turbine/CommonsInstanceDiscoveryTests.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-turbine/src/test/java/org/springframework/cloud/netflix/turbine/TurbineAggregatorPropertiesTest.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-turbine/src/test/java/org/springframework/cloud/netflix/turbine/EurekaInstanceDiscoveryTests.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-turbine/src/test/java/org/springframework/cloud/netflix/turbine/ConfigurationBasedTurbineClustersProviderTest.java

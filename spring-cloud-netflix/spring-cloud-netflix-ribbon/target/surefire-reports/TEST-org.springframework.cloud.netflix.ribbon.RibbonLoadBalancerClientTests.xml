@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="0" name="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" time="0.026" errors="0" skipped="0">
+<testsuite tests="13" failures="0" name="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" time="0.018" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2017.3.4"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -63,17 +63,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testChooseMissing" time="0.002"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testReconstructUnsecureUriWithSpecialCharsPath" time="0.006"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testChooseMissing" time="0"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testReconstructUnsecureUriWithSpecialCharsPath" time="0.003"/>
   <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testReconstructSecureUriWithoutScheme" time="0.001"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testExecute" time="0.004"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testExecuteIOException" time="0.004"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testReconstructUnsecureSchemelessUri" time="0.001"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testReconstructUriWithSecureClientConfig" time="0.002"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testExecute" time="0.002"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testExecuteIOException" time="0.003"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testReconstructUnsecureSchemelessUri" time="0.002"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testReconstructUriWithSecureClientConfig" time="0.001"/>
   <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="reconstructURI" time="0.001"/>
   <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="reconstructSecureURI" time="0.001"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testReconstructSecureUriWithSpecialCharsPath" time="0.002"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testChoose" time="0"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testReconstructSecureUriWithSpecialCharsPath" time="0.001"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testChoose" time="0.001"/>
   <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testReconstructHonorsRibbonServerScheme" time="0"/>
   <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClientTests" name="testExecuteException" time="0.002"/>
 </testsuite>

@@ -1,0 +1,13 @@
+org.springframework.cloud.netflix.zuul
+org.springframework.cloud.netflix.zuul.filters
+org.springframework.cloud.netflix.zuul.filters.discovery
+org.springframework.cloud.netflix.zuul.filters.post
+org.springframework.cloud.netflix.zuul.filters.pre
+org.springframework.cloud.netflix.zuul.filters.route
+org.springframework.cloud.netflix.zuul.filters.route.apache
+org.springframework.cloud.netflix.zuul.filters.route.okhttp
+org.springframework.cloud.netflix.zuul.filters.route.support
+org.springframework.cloud.netflix.zuul.filters.support
+org.springframework.cloud.netflix.zuul.metrics
+org.springframework.cloud.netflix.zuul.util
+org.springframework.cloud.netflix.zuul.web

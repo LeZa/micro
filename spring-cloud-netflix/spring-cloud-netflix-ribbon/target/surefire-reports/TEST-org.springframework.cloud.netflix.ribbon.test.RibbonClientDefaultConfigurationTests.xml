@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="org.springframework.cloud.netflix.ribbon.test.RibbonClientDefaultConfigurationTests" time="1.004" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="org.springframework.cloud.netflix.ribbon.test.RibbonClientDefaultConfigurationTests" time="0.944" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2017.3.4"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -63,8 +63,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.test.RibbonClientDefaultConfigurationTests" name="pingOverridesDefault" time="0.994"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.test.RibbonClientDefaultConfigurationTests" name="ruleOverridesDefault" time="0.003"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.test.RibbonClientDefaultConfigurationTests" name="serverListOverridesDefault" time="0.005"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.test.RibbonClientDefaultConfigurationTests" name="serverListFilterOverride" time="0.002"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.test.RibbonClientDefaultConfigurationTests" name="pingOverridesDefault" time="0.936"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.test.RibbonClientDefaultConfigurationTests" name="ruleOverridesDefault" time="0.002"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.test.RibbonClientDefaultConfigurationTests" name="serverListOverridesDefault" time="0.003"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.test.RibbonClientDefaultConfigurationTests" name="serverListFilterOverride" time="0.003"/>
 </testsuite>

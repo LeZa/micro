@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:7860/eureka/
+      defaultZone: http://192.168.109.32:7860/eureka/,http://192.168.89.54:7860/eureka/
 
 server:
   port: 7861
@@ -11,17 +11,3 @@ management.security.enabled: false
 spring:
   application:
       name: service-ribbon
-  redis:
-    host: 127.0.0.1
-    password: 123456
-    port: 6379
-
-
-security:
-  oauth2:
-    resource:
-      id: service-ribbon
-      user-info-uri: http://localhost:7869/uaa/user
-      prefer-token-info: false
-
-logging.level.org.springframework.security: DEBUG

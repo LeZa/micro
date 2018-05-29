@@ -1,0 +1,25 @@
+Invoking Maven for the goals: [org.apache.maven.plugins:maven-javadoc-plugin:2.10.4:javadoc] with no properties
+
+M2_HOME=/home/centin/Program/maven-3.5.3
+MAVEN_OPTS=null
+JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64/jre/..
+JAVA_OPTS=null
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---< org.springframework.cloud:spring-cloud-starter-netflix-hystrix >---
+[INFO] Building Spring Cloud Starter Netflix Hystrix 2.0.0.BUILD-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:2.10.4:javadoc (default-cli) > generate-sources @ spring-cloud-starter-netflix-hystrix >>>
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:2.10.4:javadoc (default-cli) < generate-sources @ spring-cloud-starter-netflix-hystrix <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-javadoc-plugin:2.10.4:javadoc (default-cli) @ spring-cloud-starter-netflix-hystrix ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.215 s
+[INFO] Finished at: 2018-05-18T17:43:55+08:00
+[INFO] ------------------------------------------------------------------------

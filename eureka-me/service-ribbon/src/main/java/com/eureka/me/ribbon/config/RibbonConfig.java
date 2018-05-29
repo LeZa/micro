@@ -1,7 +1,6 @@
 package com.eureka.me.ribbon.config;
 
-import com.netflix.loadbalancer.IRule;
-import com.netflix.loadbalancer.RandomRule;
+import com.netflix.loadbalancer.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,16 +15,20 @@ import java.security.cert.X509Certificate;
 @Configuration
 public class RibbonConfig {
 
-
     @Bean
     public IRule ribbonIRule(){
-        return new RandomRule();
+//        return new RandomRule();
+//        return new RoundRobinRule();
+        return new BestAvailableRule();
+      /*  return new PredicateBasedRule() {
+            @Override
+            public AbstractServerPredicate getPredicate() {
+                return null;
+            }
+        };*/
+       /* return new AvailabilityFilteringRule();*/
     }
 
-   /* @Bean
-    public IRule ribbonIRule(){
-        return new BestAvailableRule();
-    }*/
 
     @Bean
     public HostnameVerifier hostnameVerifier() {
@@ -107,7 +110,8 @@ class ClientHttpsAcceptLoaclahostRequestFactory extends
                     String authType) {
 
             }
-        } };
+        }
+        };
     }
 }
 

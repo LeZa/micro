@@ -73,35 +73,35 @@
     <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-buffer</artifactId>
-        <version>4.0.27.Final</version>
+        <version>4.1.23.Final</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/io.netty/netty-transport -->
     <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport</artifactId>
-        <version>4.0.27.Final</version>
+        <version>4.1.23.Final</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/io.netty/netty-handler -->
     <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-handler</artifactId>
-        <version>4.0.27.Final</version>
+        <version>4.1.23.Final</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/io.netty/netty-codec -->
     <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec</artifactId>
-        <version>4.0.27.Final</version>
+        <version>4.1.23.Final</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/io.netty/netty-codec-http -->
     <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-http</artifactId>
-        <version>4.0.27.Final</version>
+        <version>4.1.23.Final</version>
     </dependency>
 
 

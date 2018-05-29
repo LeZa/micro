@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="24" failures="0" name="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" time="4.397" errors="0" skipped="0">
+<testsuite tests="24" failures="0" name="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" time="4.058" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2017.3.4"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -63,28 +63,28 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRequestConfigUseDefaultsNoOverride" time="1.005"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRetryOnPost" time="0.111"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="retryListenerTest" time="0.008"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testDoubleEncodingWithRetry" time="0.025"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testTimeouts" time="0.571"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testNeverRetry" time="0.008"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRequestConfigUseDefaultsNoOverride" time="0.848"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRetryOnPost" time="0.127"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="retryListenerTest" time="0.007"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testDoubleEncodingWithRetry" time="0.02"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testTimeouts" time="0.467"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testNeverRetry" time="0.006"/>
   <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testDoubleEncoding" time="0.004"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRequestConfigDoNotFollowRedirectsNoOverride" time="0.446"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRetrySameServerOnly" time="0.004"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRetryFail" time="0.033"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testDefaultTimeouts" time="0.355"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="retryWithOriginalConstructorTest" time="0.006"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRequestConfigFollowRedirectsOverrideWithDoNotFollowRedirects" time="0.331"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="invalidServerTest" time="0.006"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRequestConfigFollowRedirectsNoOverride" time="0.367"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRetryNextServer" time="0.005"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="noServersFoundTest" time="0.003"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testUpdatedTimeouts" time="0.555"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testConnections" time="0.212"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRetryOnStatusCode" time="0.006"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRequestConfigDoNotFollowRedirectsOverrideWithFollowRedirects" time="0.326"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testNoRetryOnPost" time="0.003"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRequestConfigDoNotFollowRedirectsNoOverride" time="0.416"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRetrySameServerOnly" time="0.008"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRetryFail" time="0.037"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testDefaultTimeouts" time="0.324"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="retryWithOriginalConstructorTest" time="0.005"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRequestConfigFollowRedirectsOverrideWithDoNotFollowRedirects" time="0.358"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="invalidServerTest" time="0.008"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRequestConfigFollowRedirectsNoOverride" time="0.358"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRetryNextServer" time="0.016"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="noServersFoundTest" time="0.004"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testUpdatedTimeouts" time="0.422"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testConnections" time="0.252"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRetryOnStatusCode" time="0.005"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testRequestConfigDoNotFollowRedirectsOverrideWithFollowRedirects" time="0.357"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="testNoRetryOnPost" time="0.002"/>
   <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="retryDefaultListenerTest" time="0.004"/>
   <testcase classname="org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClientTests" name="retryListenerTestNoRetry" time="0.003"/>
 </testsuite>

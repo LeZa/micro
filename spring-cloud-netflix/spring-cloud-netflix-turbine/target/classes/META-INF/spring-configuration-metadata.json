@@ -1,0 +1,44 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.springframework.cloud.netflix.turbine.TurbineProperties",
+      "name": "turbine",
+      "type": "org.springframework.cloud.netflix.turbine.TurbineProperties"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.turbine.TurbineAggregatorProperties",
+      "name": "turbine.aggregator",
+      "type": "org.springframework.cloud.netflix.turbine.TurbineAggregatorProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.springframework.cloud.netflix.turbine.TurbineAggregatorProperties",
+      "name": "turbine.aggregator.cluster-config",
+      "description": "The list of cluster names.",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.turbine.TurbineProperties",
+      "name": "turbine.app-config",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.turbine.TurbineProperties",
+      "name": "turbine.app-config-list",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.turbine.TurbineProperties",
+      "name": "turbine.cluster-name-expression",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.turbine.TurbineProperties",
+      "defaultValue": true,
+      "name": "turbine.combine-host-port",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-sidecar/src/main/java/org/springframework/cloud/netflix/sidecar/SidecarConfiguration.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-sidecar/src/main/java/org/springframework/cloud/netflix/sidecar/SidecarProperties.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-sidecar/src/main/java/org/springframework/cloud/netflix/sidecar/LocalApplicationHealthIndicator.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-sidecar/src/main/java/org/springframework/cloud/netflix/sidecar/LocalApplicationHealthCheckHandler.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-sidecar/src/main/java/org/springframework/cloud/netflix/sidecar/EnableSidecar.java
+/home/centin/ideaProject/micro/spring-cloud-netflix/spring-cloud-netflix-sidecar/src/main/java/org/springframework/cloud/netflix/sidecar/SidecarController.java

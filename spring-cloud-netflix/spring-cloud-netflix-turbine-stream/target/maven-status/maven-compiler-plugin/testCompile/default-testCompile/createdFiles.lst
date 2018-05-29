@@ -1,0 +1,7 @@
+org/springframework/cloud/netflix/turbine/stream/TurbinePortApplicationListenerTests.class
+org/springframework/cloud/netflix/turbine/stream/TurbineStreamTests.class
+org/springframework/cloud/netflix/turbine/stream/TurbineStreamTests$1.class
+org/springframework/cloud/netflix/turbine/stream/TurbineStreamTests$NonClosingInterceptor.class
+org/springframework/cloud/netflix/turbine/stream/HystrixStreamAggregatorTests.class
+org/springframework/cloud/netflix/turbine/stream/TurbineStreamTests$NonClosingInterceptor$NonClosingResponse.class
+org/springframework/cloud/netflix/turbine/stream/TurbineStreamTests$Application.class

@@ -11,7 +11,7 @@ public class HelloController {
 
     @GetMapping(value = "/hi")
     public String hi(@RequestParam String name) throws SQLException {
-        return  "hi client1";
+        return  "hi 89.54  client1 7864";
     }
 
 }

@@ -244,8 +244,8 @@
 						<artifactId>jsr305</artifactId>
 					</exclusion>
 					<exclusion>
-						<artifactId>jackson-dataformat-xml</artifactId>
 						<groupId>com.fasterxml.jackson.dataformat</groupId>
+						<artifactId>jackson-dataformat-xml</artifactId>
 					</exclusion>
 					<exclusion>
 						<artifactId>*</artifactId>

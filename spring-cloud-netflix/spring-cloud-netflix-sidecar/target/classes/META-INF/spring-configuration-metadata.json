@@ -1,0 +1,38 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.springframework.cloud.netflix.sidecar.SidecarProperties",
+      "name": "sidecar",
+      "type": "org.springframework.cloud.netflix.sidecar.SidecarProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.springframework.cloud.netflix.sidecar.SidecarProperties",
+      "name": "sidecar.health-uri",
+      "type": "java.net.URI"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.sidecar.SidecarProperties",
+      "name": "sidecar.home-page-uri",
+      "type": "java.net.URI"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.sidecar.SidecarProperties",
+      "name": "sidecar.hostname",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.sidecar.SidecarProperties",
+      "name": "sidecar.ip-address",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.netflix.sidecar.SidecarProperties",
+      "defaultValue": 0,
+      "name": "sidecar.port",
+      "type": "java.lang.Integer"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorPropertiesOverridesIntegrationTests" time="0.263" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorPropertiesOverridesIntegrationTests" time="0.322" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2017.3.4"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -63,9 +63,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorPropertiesOverridesIntegrationTests" name="ruleOverridesToRandom" time="0.252"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorPropertiesOverridesIntegrationTests" name="ruleOverridesToRandom" time="0.314"/>
   <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorPropertiesOverridesIntegrationTests" name="pingOverridesToNoOp" time="0.002"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorPropertiesOverridesIntegrationTests" name="serverListOverridesToTest" time="0.003"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorPropertiesOverridesIntegrationTests" name="loadBalancerOverridesToTest" time="0.003"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorPropertiesOverridesIntegrationTests" name="serverListFilterOverride" time="0.003"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorPropertiesOverridesIntegrationTests" name="serverListOverridesToTest" time="0.002"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorPropertiesOverridesIntegrationTests" name="loadBalancerOverridesToTest" time="0.002"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorPropertiesOverridesIntegrationTests" name="serverListFilterOverride" time="0.002"/>
 </testsuite>

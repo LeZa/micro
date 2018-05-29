@@ -1,0 +1,9 @@
+org/springframework/cloud/netflix/turbine/stream/TurbineStreamClient.class
+META-INF/spring-configuration-metadata.json
+org/springframework/cloud/netflix/turbine/stream/EnableTurbineStream.class
+org/springframework/cloud/netflix/turbine/stream/TurbineStreamAutoConfiguration.class
+org/springframework/cloud/netflix/turbine/stream/TurbineApplication.class
+org/springframework/cloud/netflix/turbine/stream/TurbineStreamConfiguration.class
+org/springframework/cloud/netflix/turbine/stream/TurbineStreamProperties.class
+org/springframework/cloud/netflix/turbine/stream/TurbinePortApplicationListener.class
+org/springframework/cloud/netflix/turbine/stream/HystrixStreamAggregator.class

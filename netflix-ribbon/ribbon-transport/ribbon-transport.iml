@@ -16,8 +16,7 @@
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="module" module-name="ribbon-loadbalancer" />
     <orderEntry type="library" name="Maven: com.netflix.netflix-commons:netflix-statistics:0.1.1" level="project" />
-    <orderEntry type="library" name="Maven: com.netflix.servo:servo-core:0.10.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.servo:servo-internal:0.10.1" level="project" />
+    <orderEntry type="library" name="Maven: com.netflix.servo:servo-core:0.12.21" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.netflix-commons:netflix-commons-util:0.1.1" level="project" />
     <orderEntry type="library" name="Maven: com.sun.jersey:jersey-server:1.19.1" level="project" />
     <orderEntry type="library" name="Maven: com.sun.jersey:jersey-core:1.19.1" level="project" />
@@ -35,11 +34,12 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-core:2.4.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.4.3" level="project" />
     <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.0.27.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-common:4.0.27.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.0.27.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.0.27.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.0.27.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.0.27.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.23.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.23.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.23.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.23.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.23.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.23.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.23.Final" level="project" />
   </component>
 </module>

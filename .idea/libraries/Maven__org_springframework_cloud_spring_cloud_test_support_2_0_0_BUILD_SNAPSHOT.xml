@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.cloud:spring-cloud-test-support:2.0.0.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/m2/org/springframework/cloud/spring-cloud-test-support/2.0.0.BUILD-SNAPSHOT/spring-cloud-test-support-2.0.0.BUILD-20180503.025142-2842.jar!/" />
+      <root url="jar://$USER_HOME$/m2/org/springframework/cloud/spring-cloud-test-support/2.0.0.BUILD-SNAPSHOT/spring-cloud-test-support-2.0.0.BUILD-20180518.085105-2970.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/m2/org/springframework/cloud/spring-cloud-test-support/2.0.0.BUILD-SNAPSHOT/spring-cloud-test-support-2.0.0.BUILD-20180503.025142-2842-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/m2/org/springframework/cloud/spring-cloud-test-support/2.0.0.BUILD-SNAPSHOT/spring-cloud-test-support-2.0.0.BUILD-20180518.085105-2970-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/m2/org/springframework/cloud/spring-cloud-test-support/2.0.0.BUILD-SNAPSHOT/spring-cloud-test-support-2.0.0.BUILD-20180503.025142-2842-sources.jar!/" />
+      <root url="jar://$USER_HOME$/m2/org/springframework/cloud/spring-cloud-test-support/2.0.0.BUILD-SNAPSHOT/spring-cloud-test-support-2.0.0.BUILD-20180518.085105-2970-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -13,9 +13,10 @@
         <option value="$PROJECT_DIR$/netflix-ribbon/ribbon-loadbalancer/pom.xml" />
         <option value="$PROJECT_DIR$/netflix-ribbon/ribbon-transport/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-me/service-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-me/service-oauth/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-me/service-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-me/service-client1/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-token/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-me/service-token/pom.xml" />
       </list>
     </option>
   </component>

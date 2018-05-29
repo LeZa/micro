@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorIntegrationTests" time="0.191" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorIntegrationTests" time="0.178" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2017.3.4"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -63,8 +63,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorIntegrationTests" name="serverListFilterDefaultsToZonePreference" time="0.184"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorIntegrationTests" name="serverListFilterDefaultsToZonePreference" time="0.173"/>
   <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorIntegrationTests" name="pingDefaultsToDummy" time="0.003"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorIntegrationTests" name="ruleDefaultsToZoneAvoidance" time="0.002"/>
-  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorIntegrationTests" name="serverListDefaultsToConfigurationBased" time="0.002"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorIntegrationTests" name="ruleDefaultsToZoneAvoidance" time="0.001"/>
+  <testcase classname="org.springframework.cloud.netflix.ribbon.RibbonClientPreprocessorIntegrationTests" name="serverListDefaultsToConfigurationBased" time="0.001"/>
 </testsuite>

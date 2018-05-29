@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfigurationTests" time="0.103" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfigurationTests" time="0.164" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2017.3.4"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -63,9 +63,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfigurationTests" name="normal" time="0.011"/>
-  <testcase classname="org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfigurationTests" name="ignoreConnectionClose" time="0.001"/>
+  <testcase classname="org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfigurationTests" name="normal" time="0.012"/>
+  <testcase classname="org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfigurationTests" name="ignoreConnectionClose" time="0"/>
   <testcase classname="org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfigurationTests" name="connectionClose" time="0"/>
   <testcase classname="org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfigurationTests" name="doNotIgnoreConnectionClose" time="0"/>
-  <testcase classname="org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfigurationTests" name="initParameters" time="0.091"/>
+  <testcase classname="org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardConfigurationTests" name="initParameters" time="0.152"/>
 </testsuite>

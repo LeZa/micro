@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>eureka-master</groupId>
+    <artifactId>eureka.master</artifactId>
+    <version>2.0.0.BUILD-SNAPSHOT</version>
+
+    <properties>
+        <awsVersion>1.11.277</awsVersion>
+        <servletVersion>2.5</servletVersion>
+        <jerseyVersion>1.19.1</jerseyVersion>
+        <jettisonVersion>1.3.7</jettisonVersion>
+        <apacheHttpClientVersion>4.5.3</apacheHttpClientVersion>
+        <guiceVersion>4.1.0</guiceVersion>
+        <servoVersion>0.12.21</servoVersion>
+        <governatorVersion>1.17.5</governatorVersion>
+        <archaiusVersion>0.7.6</archaiusVersion>
+        <jacksonVersion>2.9.4</jacksonVersion>
+        <woodstoxVersion>4.4.1</woodstoxVersion>
+        <jetty_version>7.2.0.v20101020</jetty_version>
+        <junit_version>4.11</junit_version>
+        <mockitoVersion>1.10.19</mockitoVersion>
+        <mockserverVersion>3.9.2</mockserverVersion>
+    </properties>
+
+    <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/com.netflix.nebula/nebula-publishing-plugin -->
+        <dependency>
+            <groupId>com.netflix.nebula</groupId>
+            <artifactId>nebula-publishing-plugin</artifactId>
+            <version>7.1.0</version>
+        </dependency>
+
+
+    </dependencies>
+    
+</project>

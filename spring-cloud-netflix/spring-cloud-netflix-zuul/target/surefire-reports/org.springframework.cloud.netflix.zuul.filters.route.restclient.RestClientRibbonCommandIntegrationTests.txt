@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.springframework.cloud.netflix.zuul.filters.route.restclient.RestClientRibbonCommandIntegrationTests
+-------------------------------------------------------------------------------
+Tests run: 31, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 3.886 sec

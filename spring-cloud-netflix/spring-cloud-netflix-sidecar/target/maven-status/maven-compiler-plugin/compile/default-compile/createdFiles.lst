@@ -1,0 +1,8 @@
+org/springframework/cloud/netflix/sidecar/SidecarConfiguration$EurekaInstanceConfigBeanConfiguration.class
+org/springframework/cloud/netflix/sidecar/EnableSidecar.class
+org/springframework/cloud/netflix/sidecar/SidecarConfiguration.class
+META-INF/spring-configuration-metadata.json
+org/springframework/cloud/netflix/sidecar/LocalApplicationHealthCheckHandler.class
+org/springframework/cloud/netflix/sidecar/LocalApplicationHealthIndicator.class
+org/springframework/cloud/netflix/sidecar/SidecarController.class
+org/springframework/cloud/netflix/sidecar/SidecarProperties.class

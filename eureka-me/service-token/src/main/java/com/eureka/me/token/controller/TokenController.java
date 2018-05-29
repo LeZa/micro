@@ -1,6 +1,5 @@
 package com.eureka.me.token.controller;
 
-
 import com.eureka.me.token.db.RocksDBServiceDetail;
 import com.eureka.me.token.db.TokenRocksDBServiceDetail;
 import com.google.gson.Gson;
@@ -17,7 +16,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Controller
-@RequestMapping("code")
 public class TokenController {
 
     private RocksDBServiceDetail rocksDBServiceDetail = RocksDBServiceDetail.getInstance();
@@ -77,7 +75,7 @@ public class TokenController {
             System.out.println("..."+token);
             Map<String,Object> resultMap = new HashMap<String,Object>();
             resultMap.put("msg","session timeout");
-            resultMap.put("code","-1");
+            resultMap.put("code","0");
             resultMap.put("data",new ArrayList());
         return new Gson().toJson( resultMap );
     }

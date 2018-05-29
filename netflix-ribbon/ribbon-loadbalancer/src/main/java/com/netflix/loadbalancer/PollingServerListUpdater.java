@@ -75,6 +75,10 @@ public class PollingServerListUpdater implements ServerListUpdater {
         }
     }
 
+    /**
+     * @Description   ScheduledThreadPoolExecutor  add or minus  server
+     * @return
+     */
     private static ScheduledThreadPoolExecutor getRefreshExecutor() {
         return LazyHolder._serverListRefreshExecutor;
     }

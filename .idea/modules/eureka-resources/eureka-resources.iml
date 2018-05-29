@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":eureka-resources" external.linked.project.path="$MODULE_DIR$/../../../eureka-master/eureka-resources" external.root.project.path="$MODULE_DIR$/../../../eureka-master" external.system.id="GRADLE" external.system.module.group="com.netflix.eureka" external.system.module.version="0.1.0-dev.0.uncommitted" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../eureka-master/eureka-resources">
+      <excludeFolder url="file://$MODULE_DIR$/../../../eureka-master/eureka-resources/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../eureka-master/eureka-resources/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../eureka-master/eureka-resources/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

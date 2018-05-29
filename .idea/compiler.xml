@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-token" />
         <module name="ribbon" />
         <module name="ribbon-core" />
         <module name="ribbon-eureka" />
@@ -14,10 +15,10 @@
         <module name="ribbon-transport" />
         <module name="service-client" />
         <module name="service-client1" />
-        <module name="service-oauth" />
         <module name="service-ribbon" />
         <module name="service-server" />
         <module name="service-server1" />
+        <module name="service-token" />
         <module name="service-zuul" />
         <module name="spring-cloud-netflix-archaius" />
         <module name="spring-cloud-netflix-core" />
@@ -44,6 +45,28 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="client1" target="1.5" />
+      <module name="eureka-client-archaius2_main" target="1.8" />
+      <module name="eureka-client-archaius2_test" target="1.8" />
+      <module name="eureka-client-jersey2_main" target="1.8" />
+      <module name="eureka-client-jersey2_test" target="1.8" />
+      <module name="eureka-client_main" target="1.8" />
+      <module name="eureka-client_test" target="1.8" />
+      <module name="eureka-core-jersey2_main" target="1.8" />
+      <module name="eureka-core-jersey2_test" target="1.8" />
+      <module name="eureka-core_main" target="1.8" />
+      <module name="eureka-core_test" target="1.8" />
+      <module name="eureka-examples_main" target="1.8" />
+      <module name="eureka-examples_test" target="1.8" />
+      <module name="eureka-master" target="1.5" />
+      <module name="eureka-resources_main" target="1.8" />
+      <module name="eureka-resources_test" target="1.8" />
+      <module name="eureka-server-governator_main" target="1.8" />
+      <module name="eureka-server-governator_test" target="1.8" />
+      <module name="eureka-server_main" target="1.8" />
+      <module name="eureka-server_test" target="1.8" />
+      <module name="eureka-test-utils_main" target="1.8" />
+      <module name="eureka-test-utils_test" target="1.8" />
+      <module name="eureka-token" target="1.8" />
       <module name="ribbon" target="1.8" />
       <module name="ribbon-core" target="1.8" />
       <module name="ribbon-eureka" target="1.8" />
@@ -56,6 +79,7 @@
       <module name="service-ribbon" target="1.8" />
       <module name="service-server" target="1.8" />
       <module name="service-server1" target="1.8" />
+      <module name="service-token" target="1.8" />
       <module name="service-zuul" target="1.8" />
       <module name="spring-cloud-netflix" target="1.8" />
       <module name="spring-cloud-netflix-archaius" target="1.8" />

@@ -67,7 +67,7 @@ public class EurekaServerBootstrap {
 	protected volatile EurekaServerContext serverContext;
 	protected volatile AwsBinder awsBinder;
 
-	public EurekaServerBootstrap(ApplicationInfoManager applicationInfoManager,
+		public EurekaServerBootstrap(ApplicationInfoManager applicationInfoManager,
 			EurekaClientConfig eurekaClientConfig, EurekaServerConfig eurekaServerConfig,
 			PeerAwareInstanceRegistry registry, EurekaServerContext serverContext) {
 		this.applicationInfoManager = applicationInfoManager;

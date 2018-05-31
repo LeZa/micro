@@ -8,7 +8,13 @@ spring:
 eureka:
   instance:
     lease-renewal-interval-in-seconds: 30
+    lease-expiration-duration-in-seconds: 60
   client:
     serviceUrl:
-      defaultZone: http://localhost:8080/eureka/v2/
-#http://192.168.109.32:7860/eureka/,
+      defaultZone: http://192.168.89.54:7861/eureka/v2,http://192.168.89.122:7861/eureka/v2
+
+
+#http://192.168.109.32:7860/eureka/,http://192.168.89.54:7860/eureka/
+#http://localhost:8080/eureka/v2/
+#续约更新时间   lease-renewal-interval-in-seconds
+#到期时间 lease-expiration-duration-in-seconds

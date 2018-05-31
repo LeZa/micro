@@ -199,6 +199,9 @@ public class EndpointUtils {
         int myZoneOffset = getZoneOffset(instanceZone, preferSameZone, availZones);
 
         List<String> serviceUrls = clientConfig.getEurekaServerServiceUrls(availZones[myZoneOffset]);
+        for(String serverUrl : serviceUrls ){
+            System.out.println(".............."+serverUrl);
+        }
         if (serviceUrls != null) {
             orderedUrls.addAll(serviceUrls);
         }

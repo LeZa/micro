@@ -5,7 +5,6 @@
       <list>
         <option value="$PROJECT_DIR$/eureka-me/service-client/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-netflix/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-me/service-server/pom.xml" />
         <option value="$PROJECT_DIR$/netflix-ribbon/ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/netflix-ribbon/ribbon-core/pom.xml" />
         <option value="$PROJECT_DIR$/netflix-ribbon/ribbon-eureka/pom.xml" />

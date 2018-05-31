@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:2.0.1.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/m2/org/springframework/cloud/spring-cloud-stream-binder-rabbit-core/2.0.1.BUILD-SNAPSHOT/spring-cloud-stream-binder-rabbit-core-2.0.1.BUILD-20180515.134420-2.jar!/" />
+      <root url="jar://$USER_HOME$/m2/org/springframework/cloud/spring-cloud-stream-binder-rabbit-core/2.0.1.BUILD-SNAPSHOT/spring-cloud-stream-binder-rabbit-core-2.0.1.BUILD-20180523.162344-3.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/m2/org/springframework/cloud/spring-cloud-stream-binder-rabbit-core/2.0.1.BUILD-SNAPSHOT/spring-cloud-stream-binder-rabbit-core-2.0.1.BUILD-20180515.134420-2-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/m2/org/springframework/cloud/spring-cloud-stream-binder-rabbit-core/2.0.1.BUILD-SNAPSHOT/spring-cloud-stream-binder-rabbit-core-2.0.1.BUILD-20180523.162344-3-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/m2/org/springframework/cloud/spring-cloud-stream-binder-rabbit-core/2.0.1.BUILD-SNAPSHOT/spring-cloud-stream-binder-rabbit-core-2.0.1.BUILD-20180515.134420-2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/m2/org/springframework/cloud/spring-cloud-stream-binder-rabbit-core/2.0.1.BUILD-SNAPSHOT/spring-cloud-stream-binder-rabbit-core-2.0.1.BUILD-20180523.162344-3-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

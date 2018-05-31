@@ -4,22 +4,17 @@ buildscript {
         maven {
             url "https://plugins.gradle.org/m2/"
         }
-
     }
-
-
         dependencies {
             classpath 'com.netflix.nebula:gradle-netflixoss-project-plugin:5.0.0'
             classpath "com.netflix.nebula:gradle-extra-configurations-plugin:3.3.0"
             classpath 'org.akhikhl.gretty:gretty:+'
         }
-
 }
 
 plugins {
     id 'nebula.netflixoss' version '3.6.0'
 }
-
 
 idea {
     project {
@@ -72,10 +67,10 @@ subprojects {
     repositories {
 
         jcenter()
+
         maven {
             url "https://plugins.gradle.org/m2/"
         }
-
     }
 
     test {

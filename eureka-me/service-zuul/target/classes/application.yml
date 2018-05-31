@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.89.54:7860/eureka/
+      defaultZone: http://192.168.89.54:7861/eureka/v2
 
 server:
   port: 7869

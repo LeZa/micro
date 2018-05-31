@@ -42,7 +42,6 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-me/service-client/service-client.iml" filepath="$PROJECT_DIR$/eureka-me/service-client/service-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-me/service-client1/service-client1.iml" filepath="$PROJECT_DIR$/eureka-me/service-client1/service-client1.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-me/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/eureka-me/service-ribbon/service-ribbon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-me/service-server/service-server.iml" filepath="$PROJECT_DIR$/eureka-me/service-server/service-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-me/service-token/service-token.iml" filepath="$PROJECT_DIR$/eureka-me/service-token/service-token.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-me/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/eureka-me/service-zuul/service-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix.iml" filepath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix.iml" />

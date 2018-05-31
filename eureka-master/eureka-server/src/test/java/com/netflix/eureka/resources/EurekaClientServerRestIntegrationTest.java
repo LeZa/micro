@@ -106,6 +106,8 @@ public class EurekaClientServerRestIntegrationTest {
         }
     }
 
+
+
     @Test
     public void testRegistration() throws Exception {
         InstanceInfo instanceInfo = instanceInfoIt.next();
@@ -121,7 +123,8 @@ public class EurekaClientServerRestIntegrationTest {
         jerseyEurekaClient.register(instanceInfo);
 
         // Now send heartbeat
-        EurekaHttpResponse<InstanceInfo> heartBeatResponse = jerseyReplicationClient.sendHeartBeat(instanceInfo.getAppName(), instanceInfo.getId(), instanceInfo, null);
+        EurekaHttpResponse<InstanceInfo> heartBeatResponse
+                = jerseyReplicationClient.sendHeartBeat(instanceInfo.getAppName(), instanceInfo.getId(), instanceInfo, null);
 
         assertThat(heartBeatResponse.getStatusCode(), is(equalTo(200)));
         assertThat(heartBeatResponse.getEntity(), is(nullValue()));
@@ -243,7 +246,7 @@ public class EurekaClientServerRestIntegrationTest {
 
         server.start();
 
-        eurekaServiceUrl = "http://localhost:8080/v2";
+        eurekaServiceUrl = "http://192.168.89.54:8080/eureka";
     }
 
     private static File findWar() {

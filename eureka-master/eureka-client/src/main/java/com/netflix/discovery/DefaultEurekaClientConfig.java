@@ -379,6 +379,7 @@ public class DefaultEurekaClientConfig implements EurekaClientConfig {
      */
     @Override
     public List<String> getEurekaServerServiceUrls(String myZone) {
+
         String serviceUrls = configInstance.getStringProperty(
                 namespace + CONFIG_EUREKA_SERVER_SERVICE_URL_PREFIX + "." + myZone, null).get();
         if (serviceUrls == null || serviceUrls.isEmpty()) {

@@ -6,61 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02f7d4f0-59b7-4821-8c23-9132c8d3489e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_4_11_0_201803080745_r.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_netflix_eureka___eureka_server_0_1_0_dev_0_uncommitted_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_netflix_eureka___eureka_server_0_1_0_dev_0_uncommitted_war__exploded_.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_netflix_eureka___eureka_server_governator_0_1_0_dev_0_uncommitted_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_netflix_eureka___eureka_server_governator_0_1_0_dev_0_uncommitted_war__exploded_.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jcraft_jzlib_1_1_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_2_0_1_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_2_0_1_BUILD_SNAPSHOT.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_core_2_0_1_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_core_2_0_1_BUILD_SNAPSHOT.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_test_support_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_test_support_2_0_0_BUILD_SNAPSHOT.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/eureka-client/eureka-client_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/eureka-client/eureka-client_main.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/eureka-core/eureka-core_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/eureka-core/eureka-core_test.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/eureka-examples/eureka-examples_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/eureka-examples/eureka-examples_test.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/eureka-master/CHANGELOG.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/eureka-master/build.gradle" afterPath="$PROJECT_DIR$/eureka-master/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/eureka-master/eureka-client/src/main/java/com/netflix/discovery/DefaultEurekaClientConfig.java" afterPath="$PROJECT_DIR$/eureka-master/eureka-client/src/main/java/com/netflix/discovery/DefaultEurekaClientConfig.java" />
-      <change beforePath="$PROJECT_DIR$/eureka-master/eureka-client/src/main/java/com/netflix/discovery/endpoint/EndpointUtils.java" afterPath="$PROJECT_DIR$/eureka-master/eureka-client/src/main/java/com/netflix/discovery/endpoint/EndpointUtils.java" />
-      <change beforePath="$PROJECT_DIR$/eureka-master/eureka-client/src/test/java/com/netflix/discovery/MockRemoteEurekaServer.java" afterPath="$PROJECT_DIR$/eureka-master/eureka-client/src/test/java/com/netflix/discovery/MockRemoteEurekaServer.java" />
-      <change beforePath="$PROJECT_DIR$/eureka-master/eureka-core/build.gradle" afterPath="$PROJECT_DIR$/eureka-master/eureka-core/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/eureka-master/eureka-server/src/main/resources/eureka-client.properties" afterPath="$PROJECT_DIR$/eureka-master/eureka-server/src/main/resources/eureka-client.properties" />
-      <change beforePath="$PROJECT_DIR$/eureka-master/eureka-server/src/test/java/com/netflix/eureka/resources/EurekaClientServerRestIntegrationTest.java" afterPath="$PROJECT_DIR$/eureka-master/eureka-server/src/test/java/com/netflix/eureka/resources/EurekaClientServerRestIntegrationTest.java" />
-      <change beforePath="$PROJECT_DIR$/eureka-master/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-client1/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/eureka-me/service-client1/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-ribbon/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/eureka-me/service-ribbon/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-ribbon/target/classes/application.yml" afterPath="$PROJECT_DIR$/eureka-me/service-ribbon/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-server/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-server/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-server/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-server/mvnw" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-server/mvnw.cmd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-server/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-server/src/main/java/com/eureke/me/server/ServiceServerApplication.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-server/src/main/resources/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-token/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/eureka-me/service-token/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-zuul/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/eureka-me/service-zuul/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-zuul/target/classes/application.yml" afterPath="$PROJECT_DIR$/eureka-me/service-zuul/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-zuul/target/service-zuul-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/eureka-me/service-zuul/target/service-zuul-0.0.1-SNAPSHOT.jar.original" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-zuul/target/surefire-reports/TEST-com.eureka.me.zuul.ServiceZuulApplicationTests.xml" afterPath="$PROJECT_DIR$/eureka-me/service-zuul/target/surefire-reports/TEST-com.eureka.me.zuul.ServiceZuulApplicationTests.xml" />
-      <change beforePath="$PROJECT_DIR$/eureka-me/service-zuul/target/surefire-reports/com.eureka.me.zuul.ServiceZuulApplicationTests.txt" afterPath="$PROJECT_DIR$/eureka-me/service-zuul/target/surefire-reports/com.eureka.me.zuul.ServiceZuulApplicationTests.txt" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-client/spring-cloud-netflix-eureka-client.iml" afterPath="$PROJECT_DIR$/spring-cloud-netflix/spring-cloud-netflix-eureka-client/spring-cloud-netflix-eureka-client.iml" />
-    </list>
+    <list default="true" id="02f7d4f0-59b7-4821-8c23-9132c8d3489e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/eureka-me/service-client/target/" />
     <ignored path="$PROJECT_DIR$/eureka-me/service-client1/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-netflix/target/" />
@@ -7503,32 +7449,6 @@
               <item name="micro" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="micro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="eureka-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="eureka-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="eureka-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="eureka-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -8015,7 +7935,7 @@
       <workItem from="1527730775807" duration="5398000" />
       <workItem from="1527737466899" duration="3905000" />
       <workItem from="1527746607886" duration="7047000" />
-      <workItem from="1527753702116" duration="202000" />
+      <workItem from="1527753702116" duration="666000" />
     </task>
     <servers />
   </component>
@@ -8052,7 +7972,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265282000" />
+    <option name="totallyTimeSpent" value="265746000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

@@ -15,7 +15,7 @@ zuul:
    api-a:
       path: /api-a/**
       sensitiveHeaders:
-      serviceId: service-ribbon
+      serviceId: service-client
    token:
       path: /token/**
       sensitiveHeaders:

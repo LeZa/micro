@@ -443,6 +443,7 @@ public class DiscoveryClient implements EurekaClient {
         // This is a bit of hack to allow for existing code using DiscoveryManager.getInstance()
         // to work with DI'd DiscoveryClient
         DiscoveryManager.getInstance().setDiscoveryClient(this);
+        System.out.println( "....DiscoveryClient...serverURLContext....."+config.getEurekaServerURLContext());
         DiscoveryManager.getInstance().setEurekaClientConfig(config);
 
         initTimestampMs = System.currentTimeMillis();

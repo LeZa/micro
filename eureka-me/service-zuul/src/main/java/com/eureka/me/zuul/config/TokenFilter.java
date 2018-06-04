@@ -8,6 +8,7 @@ import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.util.StringUtils;
 import org.springframework.web.client.RestTemplate;
@@ -46,8 +47,13 @@ public class TokenFilter
     public Object run() throws ZuulException {
 
         RequestContext ctx = RequestContext.getCurrentContext();
+
         Gson gson = new GsonBuilder().enableComplexMapKeySerialization()
                 .create();
+
+        ctx.addZuulRequestHeader("username","sushile");
+        ctx.addZuulRequestHeader("password","123456");
+
 
         HttpServletRequest request = ctx.getRequest();
         String requestURL = String.valueOf(request.getRequestURL());
@@ -62,9 +68,14 @@ public class TokenFilter
                 ctx.setResponseBody( new Gson().toJson(tokenMap) );
                 return null;
             }else{
-                /** check this token**/
                 String token = request.getParameter("token");
-                this.loadBalancerClient.choose("service-token");
+                /**
+                 * @Description check this token;
+                 */
+                ServiceInstance serviceInstance = this.loadBalancerClient.choose("service-token");
+                System.out.println("host:"+serviceInstance.getHost()+"...port:"+
+                serviceInstance.getPort()+"...uri:"+
+                serviceInstance.getUri()+"...serviceId:"+serviceInstance.getServiceId());
                 String result = this.restTemplate.getForObject("http://service-token/checkToken?token="+token,String.class);
                 Map<String,Object> resultMap = gson.fromJson(result,new TypeToken<Map<String,Object>>(){}.getType());
                 if( resultMap != null

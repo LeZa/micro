@@ -9,8 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Enumeration;
 
 @RestController
 public class HelloController {
@@ -26,6 +29,15 @@ public class HelloController {
 
     @RequestMapping(value = "/hi")
     public String hi(@RequestParam String name,HttpServletRequest request){
+
+//        request = ((ServletRequestAttributes)RequestContextHolder.getRequestAttributes())
+//                .getRequest();
+        Enumeration<String> headerNames = request.getHeaderNames();
+        while( headerNames.hasMoreElements()){
+            String nextElementStr = headerNames.nextElement();
+            System.out.println(nextElementStr+":"+request.getHeader( nextElementStr ));
+        }
+
 
       /*  String access_token = request.getParameter("access_token");*/
         this.loadBalancerClient.choose("service-client");

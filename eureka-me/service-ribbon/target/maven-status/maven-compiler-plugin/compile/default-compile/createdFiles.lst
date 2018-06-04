@@ -1,0 +1,8 @@
+com/eureka/me/ribbon/config/RibbonConfig.class
+com/eureka/me/ribbon/controller/HelloController.class
+com/eureka/me/ribbon/service/HelloService.class
+com/eureka/me/ribbon/config/ClientHttpsAcceptLoaclahostRequestFactory.class
+com/eureka/me/ribbon/config/ClientHttpsAcceptLoaclahostRequestFactory$1.class
+com/eureka/me/ribbon/config/ZipKinConfig.class
+com/eureka/me/ribbon/ServiceRibbonApplication.class
+com/eureka/me/ribbon/config/RibbonConfig$1.class

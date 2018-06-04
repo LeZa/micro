@@ -1,0 +1,5 @@
+/home/centin/ideaProject/micro/eureka-me/service-ribbon/src/main/java/com/eureka/me/ribbon/ServiceRibbonApplication.java
+/home/centin/ideaProject/micro/eureka-me/service-ribbon/src/main/java/com/eureka/me/ribbon/config/RibbonConfig.java
+/home/centin/ideaProject/micro/eureka-me/service-ribbon/src/main/java/com/eureka/me/ribbon/controller/HelloController.java
+/home/centin/ideaProject/micro/eureka-me/service-ribbon/src/main/java/com/eureka/me/ribbon/service/HelloService.java
+/home/centin/ideaProject/micro/eureka-me/service-ribbon/src/main/java/com/eureka/me/ribbon/config/ZipKinConfig.java

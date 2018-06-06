@@ -3,6 +3,10 @@ package com.eureka.me.token.controller;
 import com.eureka.me.token.db.RocksDBServiceDetail;
 import com.eureka.me.token.db.TokenRocksDBServiceDetail;
 import com.google.gson.Gson;
+import com.netflix.discovery.converters.Auto;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,6 +26,9 @@ public class TokenController {
 
     private TokenRocksDBServiceDetail tokenRocksDBServiceDetail = TokenRocksDBServiceDetail.getInstance();
 
+    @Autowired
+    private StringRedisTemplate stringRedisTemplate;
+
 
     /**
      *@Description  get token
@@ -33,14 +40,17 @@ public class TokenController {
     public String code(HttpServletRequest request){
         String username = request.getParameter( "username" );
         String password = request.getParameter( "password" );
-        StringBuilder stringBuilder =  new StringBuilder(1230);
+
+        String timeMillis = String.valueOf( Calendar.getInstance().getTimeInMillis() ); //token
         Map<String,Object> userMap = new HashMap< String,Object >();
         Map<String,Object> dataMap =  new HashMap<String,Object>();
+/*        StringBuilder stringBuilder =  new StringBuilder(1230);
+
         stringBuilder.append(username).append(",").append(password);
         byte[] userData = stringBuilder.toString().getBytes();
-        /**
+        *//**
          * @Description  if not exists  this user create it
-         */
+         *//*
         if( StringUtils.isEmpty( rocksDBServiceDetail.getString( username ) ) ){
             byte[] keyByte = username.getBytes();
             byte[] valByte =  stringBuilder.toString().getBytes();
@@ -48,14 +58,16 @@ public class TokenController {
         }else{
            userData = rocksDBServiceDetail.getString( username );
         }
-        String timeMillis = String.valueOf( Calendar.getInstance().getTimeInMillis() ); //token
+
 
         byte[] tokenByte = timeMillis.getBytes();
         tokenRocksDBServiceDetail.setString(tokenByte,userData);
-        String user = new String( userData );
-        dataMap.put("user",user);
+        String user = new String( userData );*/
+        dataMap.put("user",username);
         dataMap.put("token",timeMillis );
 
+        ValueOperations<String,String> valueOperations = stringRedisTemplate.opsForValue();
+        valueOperations.set(String.valueOf(timeMillis),"1000");
         userMap.put("msg","operator success");
         userMap.put("code","0");
         userMap.put("data",dataMap );

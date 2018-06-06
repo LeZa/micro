@@ -10,6 +10,7 @@ import com.netflix.zuul.exception.ZuulException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
+import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
 import org.springframework.util.StringUtils;
 import org.springframework.web.client.RestTemplate;
 
@@ -30,12 +31,12 @@ public class TokenFilter
 
     @Override
     public String filterType() {
-        return "pre";
+        return FilterConstants.PRE_TYPE;
     }
 
     @Override
     public int filterOrder() {
-        return 1;
+        return FilterConstants.DEBUG_FILTER_ORDER;
     }
 
     @Override
@@ -51,10 +52,6 @@ public class TokenFilter
         Gson gson = new GsonBuilder().enableComplexMapKeySerialization()
                 .create();
 
-        ctx.addZuulRequestHeader("username","sushile");
-        ctx.addZuulRequestHeader("password","123456");
-
-
         HttpServletRequest request = ctx.getRequest();
         String requestURL = String.valueOf(request.getRequestURL());
         if ( !(requestURL.indexOf("token") > -1 )) {
@@ -69,13 +66,11 @@ public class TokenFilter
                 return null;
             }else{
                 String token = request.getParameter("token");
-                /**
-                 * @Description check this token;
-                 */
-                ServiceInstance serviceInstance = this.loadBalancerClient.choose("service-token");
+
+              /*  ServiceInstance serviceInstance = this.loadBalancerClient.choose("service-token");
                 System.out.println("host:"+serviceInstance.getHost()+"...port:"+
-                serviceInstance.getPort()+"...uri:"+
-                serviceInstance.getUri()+"...serviceId:"+serviceInstance.getServiceId());
+                        serviceInstance.getPort()+"...uri:"+
+                        serviceInstance.getUri()+"...serviceId:"+serviceInstance.getServiceId());
                 String result = this.restTemplate.getForObject("http://service-token/checkToken?token="+token,String.class);
                 Map<String,Object> resultMap = gson.fromJson(result,new TypeToken<Map<String,Object>>(){}.getType());
                 if( resultMap != null
@@ -91,7 +86,7 @@ public class TokenFilter
                         ctx.setResponseBody( new Gson().toJson(tokenMap) );
                         return null;
                     }
-                }
+                }*/
             }
         }else{
             if( StringUtils.isEmpty( request.getParameter("username"))

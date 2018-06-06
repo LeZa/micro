@@ -69,10 +69,16 @@ public class ProxyRequestHelper {
 
 	private Set<String> whitelistHosts = new LinkedHashSet<>();
 
+	private static Map<String,String> selfMap = new HashMap<String,String>();
+
 	private boolean traceRequestBody = true;
 
 	public void setWhitelistHosts(Set<String> whitelistHosts) {
 		this.whitelistHosts.addAll(whitelistHosts);
+	}
+
+	public static void addSelfMap( String key,String val){
+		selfMap.put(key,val);
 	}
 
 	public void setSensitiveHeaders(Set<String> sensitiveHeaders) {
@@ -140,6 +146,9 @@ public class ProxyRequestHelper {
 					}
 				}
 			}
+		}
+		for (String key : selfMap.keySet()) {
+			headers.add(key , selfMap.get(key));
 		}
 		Map<String, String> zuulRequestHeaders = context.getZuulRequestHeaders();
 		for (String header : zuulRequestHeaders.keySet()) {

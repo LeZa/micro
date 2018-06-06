@@ -141,7 +141,9 @@ public class RibbonLoadBalancerClient implements LoadBalancerClient {
 	}
 
 	protected Server getServer(String serviceId) {
-		return getServer(getLoadBalancer(serviceId));
+		ILoadBalancer iLoadBalancer =  getLoadBalancer( serviceId );
+		Server server = getServer( iLoadBalancer );
+		return server;
 	}
 
 	protected Server getServer(ILoadBalancer loadBalancer) {

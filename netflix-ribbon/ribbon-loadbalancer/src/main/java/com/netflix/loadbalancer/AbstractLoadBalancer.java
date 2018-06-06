@@ -42,7 +42,7 @@ public abstract class AbstractLoadBalancer implements ILoadBalancer {
     }
         
     /**
-     * delegate to {@link #chooseServer(Object)} with parameter null.
+     * delegate to {@link #} with parameter null.
      */
     public Server chooseServer() {
     	return chooseServer(null);

@@ -43,6 +43,7 @@ public class RibbonHttpResponse extends AbstractClientHttpResponse {
 		}
 	}
 
+
 	@Override
 	public InputStream getBody() throws IOException {
 		return response.getInputStream();

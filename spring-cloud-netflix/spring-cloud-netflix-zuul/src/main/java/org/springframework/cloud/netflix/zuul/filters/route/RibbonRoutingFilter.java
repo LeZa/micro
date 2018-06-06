@@ -25,6 +25,8 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.cloud.netflix.ribbon.RibbonHttpResponse;
+import org.springframework.cloud.netflix.ribbon.apache.RibbonApacheHttpResponse;
 import org.springframework.cloud.netflix.ribbon.support.RibbonCommandContext;
 import org.springframework.cloud.netflix.ribbon.support.RibbonRequestCustomizer;
 import org.springframework.cloud.netflix.zuul.filters.ProxyRequestHelper;
@@ -110,6 +112,17 @@ public class RibbonRoutingFilter extends ZuulFilter {
 		try {
 			RibbonCommandContext commandContext = buildCommandContext(context);
 			ClientHttpResponse response = forward(commandContext);
+			int statusCode =  response.getStatusCode().value();
+			String serviceId = commandContext.getServiceId().toUpperCase();
+			String serviceUri = commandContext.getUri();
+			serviceUri = serviceUri.substring(1,serviceUri.length() );
+			serviceUri = serviceUri.toUpperCase();
+			if(  statusCode == 200
+					&&  serviceId.equals("SERVICE-TOKEN") && serviceUri.equals("GET")){
+				this.helper.addSelfMap("username",context.getRequest().getParameter("username"));
+				/*	context.addZuulRequestHeader("username",
+							context.getRequest().getParameter("username") );*/
+			}
 			setResponse(response);
 			return response;
 		}
@@ -159,15 +172,14 @@ public class RibbonRoutingFilter extends ZuulFilter {
 			ClientHttpResponse response = command.execute();
 			this.helper.appendDebug(info, response.getRawStatusCode(), response.getHeaders());
 			return response;
+		}catch (HystrixRuntimeException ex) {
+			return handleException(info,ex);
 		}
-		catch (HystrixRuntimeException ex) {
-			return handleException(info, ex);
-		}
-
 	}
 
 	protected ClientHttpResponse handleException(Map<String, Object> info,
 			HystrixRuntimeException ex) throws ZuulException {
+
 		int statusCode = HttpStatus.INTERNAL_SERVER_ERROR.value();
 		Throwable cause = ex;
 		String message = ex.getFailureType().toString();

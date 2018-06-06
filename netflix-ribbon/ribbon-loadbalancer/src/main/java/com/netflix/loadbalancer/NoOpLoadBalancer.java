@@ -41,7 +41,7 @@ public class NoOpLoadBalancer extends AbstractLoadBalancer {
     }
 
     @Override
-    public Server chooseServer(Object key) {       
+    public Server chooseServer(Object key) {
         return null;
     }
 

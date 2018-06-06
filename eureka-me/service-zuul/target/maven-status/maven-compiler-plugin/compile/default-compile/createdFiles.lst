@@ -1,6 +1,5 @@
 com/eureka/me/zuul/config/ServiceFallbackProvider.class
 com/eureka/me/zuul/config/ServiceFallbackProvider$1.class
 com/eureka/me/zuul/config/ZipKinConfig.class
-com/eureka/me/zuul/config/TokenFilter$1.class
 com/eureka/me/zuul/ServiceZuulApplication.class
 com/eureka/me/zuul/config/TokenFilter.class

@@ -1,4 +1,5 @@
 /home/centin/ideaProject/micro/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/config/ServiceFallbackProvider.java
+/home/centin/ideaProject/micro/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/config/RibbonConfig.java
 /home/centin/ideaProject/micro/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/ServiceZuulApplication.java
 /home/centin/ideaProject/micro/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/config/ZipKinConfig.java
 /home/centin/ideaProject/micro/eureka-me/service-zuul/src/main/java/com/eureka/me/zuul/config/TokenFilter.java

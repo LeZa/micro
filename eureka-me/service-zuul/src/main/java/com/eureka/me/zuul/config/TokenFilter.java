@@ -43,13 +43,14 @@ public class TokenFilter
 
     @Override
     public Object run() throws ZuulException {
+
         RequestContext ctx = RequestContext.getCurrentContext();
         HttpServletRequest request = ctx.getRequest();
         String requestURL = String.valueOf(request.getRequestURL());
-        if ( !(requestURL.indexOf("token") > -1 ) ) {
+        if (  !(requestURL.indexOf("token") > -1)  ) {
             if (StringUtils.isEmpty(request.getParameter("token"))) {
                 Map<String, Object> tokenMap = new HashMap<String, Object>();
-                tokenMap.put("msg", "token not empty");
+                tokenMap.put("msg", "token is empty");
                 tokenMap.put("code", "-1");
                 tokenMap.put("data", new ArrayList());
                 ctx.setSendZuulResponse( false );

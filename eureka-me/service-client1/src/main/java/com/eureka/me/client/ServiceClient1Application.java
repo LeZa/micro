@@ -15,16 +15,17 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @EnableEurekaClient
 public class ServiceClient1Application {
 
+
+	@Bean
+	@LoadBalanced
+	RestTemplate newRestTemplate(){
+		return  new RestTemplate();
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(ServiceClient1Application.class, args);
 	}
 
-
-	@LoadBalanced
-	@Bean
-	RestTemplate getRestTemplate(){
-		return  new RestTemplate();
-	}
 
 /*	@Configuration
 	static class TokenWebAdapter

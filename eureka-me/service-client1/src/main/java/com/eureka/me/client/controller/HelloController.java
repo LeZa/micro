@@ -24,10 +24,11 @@ public class HelloController {
     private  JdbcTemplate jdbcTemplate;
 
     @Autowired
-    private RestTemplate restTemplate;
+    private LoadBalancerClient loadBalancerClient;
 
     @Autowired
-    private LoadBalancerClient loadBalancerClient;
+    private RestTemplate  restTemplate;
+
 
     @GetMapping(value = "/hi")
     public String hi(@RequestParam String name, HttpServletRequest request ) throws SQLException {
@@ -54,6 +55,4 @@ public class HelloController {
         String resultStr = this.restTemplate.getForObject("http://service-token/update",String.class);
         return resultStr;
     }
-
-
 }

@@ -16,12 +16,13 @@ public class HelloController {
         /**
          * @Description
          */
+        String username = request.getHeader("username");
         Enumeration<String> headerNames = request.getHeaderNames();
         while( headerNames.hasMoreElements()){
             String nextElementStr = headerNames.nextElement();
             System.out.println(nextElementStr+":"+request.getHeader( nextElementStr ));
         }
-        return  "hi 89.54  client1 7864";
+        return  "hi"+username+" this is 89.54 client1";
     }
 
 }

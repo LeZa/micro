@@ -9,6 +9,18 @@ server:
 spring:
   application:
     name: service-zuul
+  redis:
+    database: 5
+    host: 192.168.89.54
+    password: 123456
+    port: 6379
+    timeout: 1000
+    jedis:
+      pool:
+        min-idle: 50
+        max-idle: 500
+        max-active: 2000
+        max-wait: 1000
 
 zuul:
   routes:

@@ -25,8 +25,6 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.springframework.cloud.netflix.ribbon.RibbonHttpResponse;
-import org.springframework.cloud.netflix.ribbon.apache.RibbonApacheHttpResponse;
 import org.springframework.cloud.netflix.ribbon.support.RibbonCommandContext;
 import org.springframework.cloud.netflix.ribbon.support.RibbonRequestCustomizer;
 import org.springframework.cloud.netflix.zuul.filters.ProxyRequestHelper;
@@ -120,8 +118,6 @@ public class RibbonRoutingFilter extends ZuulFilter {
 			if(  statusCode == 200
 					&&  serviceId.equals("SERVICE-TOKEN") && serviceUri.equals("GET")){
 				this.helper.addSelfMap("username",context.getRequest().getParameter("username"));
-				/*	context.addZuulRequestHeader("username",
-							context.getRequest().getParameter("username") );*/
 			}
 			setResponse(response);
 			return response;

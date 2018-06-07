@@ -3,15 +3,15 @@ package com.eureka.me.token.controller;
 import com.eureka.me.token.db.RocksDBServiceDetail;
 import com.eureka.me.token.db.TokenRocksDBServiceDetail;
 import com.google.gson.Gson;
-import com.netflix.discovery.converters.Auto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
-import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
@@ -19,7 +19,7 @@ import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 
-@Controller
+@RestController
 public class TokenController {
 
     private RocksDBServiceDetail rocksDBServiceDetail = RocksDBServiceDetail.getInstance();
@@ -28,7 +28,6 @@ public class TokenController {
 
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
-
 
     /**
      *@Description  get token
@@ -40,9 +39,15 @@ public class TokenController {
     public String code(HttpServletRequest request){
         String username = request.getParameter( "username" );
         String password = request.getParameter( "password" );
-
-        String timeMillis = String.valueOf( Calendar.getInstance().getTimeInMillis() ); //token
         Map<String,Object> userMap = new HashMap< String,Object >();
+        if (StringUtils.isEmpty(username)
+                || StringUtils.isEmpty(password)) {
+            userMap.put("msg", "username or password is empty");
+            userMap.put("code", "-1");
+            userMap.put("data", new ArrayList());
+            return new Gson().toJson( userMap );
+        }
+        String timeMillis = String.valueOf( Calendar.getInstance().getTimeInMillis() ); //token
         Map<String,Object> dataMap =  new HashMap<String,Object>();
 /*        StringBuilder stringBuilder =  new StringBuilder(1230);
 
@@ -90,6 +95,11 @@ public class TokenController {
             resultMap.put("code","0");
             resultMap.put("data",new ArrayList());
         return new Gson().toJson( resultMap );
+    }
+
+    @GetMapping( value="/update")
+    public String updateAge(){
+        return "update success";
     }
 
 }

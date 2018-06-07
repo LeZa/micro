@@ -13,6 +13,7 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.util.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -42,18 +43,13 @@ public class TokenFilter
 
     @Override
     public Object run() throws ZuulException {
-
         RequestContext ctx = RequestContext.getCurrentContext();
-        Gson gson = new GsonBuilder().enableComplexMapKeySerialization()
-                .create();
         HttpServletRequest request = ctx.getRequest();
-        String serviceId = (String) ctx.get(SERVICE_ID_KEY);
-        serviceId = serviceId.toUpperCase();
         String requestURL = String.valueOf(request.getRequestURL());
-        if ( !(serviceId.equals("SERVICE-TOKEN") )) {
+        if ( !(requestURL.indexOf("token") > -1 ) ) {
             if (StringUtils.isEmpty(request.getParameter("token"))) {
                 Map<String, Object> tokenMap = new HashMap<String, Object>();
-                tokenMap.put("msg", "token不允许为空");
+                tokenMap.put("msg", "token not empty");
                 tokenMap.put("code", "-1");
                 tokenMap.put("data", new ArrayList());
                 ctx.setSendZuulResponse( false );
@@ -65,7 +61,7 @@ public class TokenFilter
                 boolean tokenIs = this.stringRedisTemplate.hasKey( token );
                 if(!tokenIs){
                     Map<String, Object> tokenMap = new HashMap<String, Object>();
-                    tokenMap.put("msg", "token校验失败");
+                    tokenMap.put("msg", "token authenticate fail");
                     tokenMap.put("code", "-1");
                     tokenMap.put("data", new ArrayList());
                     ctx.setSendZuulResponse( false );
@@ -73,18 +69,6 @@ public class TokenFilter
                     ctx.setResponseBody( new Gson().toJson(tokenMap) );
                     return null;
                 }
-            }
-        }else{
-            if( StringUtils.isEmpty( request.getParameter("username"))
-                    || StringUtils.isEmpty( request.getParameter("password") )){
-                Map<String, Object> tokenMap = new HashMap<String, Object>();
-                tokenMap.put("msg", "username or password is empty");
-                tokenMap.put("code", "-1");
-                tokenMap.put("data", new ArrayList());
-                ctx.setSendZuulResponse( false );
-                ctx.setResponseStatusCode( 200 );
-                ctx.setResponseBody( new Gson().toJson(tokenMap) );
-                return null;
             }
         }
         return null;

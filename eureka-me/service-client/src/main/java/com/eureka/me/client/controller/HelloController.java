@@ -11,7 +11,6 @@ import com.google.gson.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.data.domain.Page;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -37,8 +36,7 @@ public class HelloController {
     @Autowired
     private StudentService studentService;
 
-    @GetMapping(value = "/hi")
-    @PreAuthorize("hasAuthority('query-demo')")
+
     @Transactional(readOnly = true)
     public String hi(@RequestParam String name) throws SQLException {
 
@@ -64,25 +62,7 @@ public class HelloController {
 //        return authorService.findAll(null,new PageableConfig(1,1)).toString();
     }
 
-    /**
-     * @Description authority add-demo
-     * @return
-     */
-    @GetMapping(value = "/addDemo")
-    @PreAuthorize("hasAuthority('add-demo')")
-    public String addDemo(){
-        return "addDemo";
-    }
 
-    /**
-     * @Description  authority del-demo
-     * @return
-     */
-    @GetMapping(value = "/delDemo")
-    @PreAuthorize("hasAuthority('del-demo')")
-    public String delDemo(){
-        return "delDemo";
-    }
 
 
     @GetMapping(value ="hi1")

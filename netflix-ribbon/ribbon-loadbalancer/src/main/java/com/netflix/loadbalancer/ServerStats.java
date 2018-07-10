@@ -286,7 +286,9 @@ public class ServerStats {
     
     private long getCircuitBreakerBlackoutPeriod() {
         int failureCount = successiveConnectionFailureCount.get();
+        System.out.println("BestAvailableRule  failureCount is:"+failureCount);
         int threshold = connectionFailureThreshold.get();
+        System.out.println("BestAvailableRule  threshold is:"+threshold);
         if (failureCount < threshold) {
             return 0;
         }

@@ -158,7 +158,8 @@ public class EurekaRegistration implements Registration, Closeable {
 				log.error("error getting CloudEurekaClient", e);
 			}
 		}
-		return this.cloudEurekaClient.get();
+		CloudEurekaClient cloudEurekaClient = this.cloudEurekaClient.get();
+		return cloudEurekaClient;
 	}
 
 	@SuppressWarnings({"unchecked"})

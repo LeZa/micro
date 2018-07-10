@@ -43,6 +43,7 @@ import com.netflix.loadbalancer.PredicateKey;
 public abstract class AbstractServerPredicate implements Predicate<PredicateKey> {
     
     protected IRule rule;
+
     private volatile LoadBalancerStats lbStats;
     
     private final Random random = new Random();
@@ -125,9 +126,12 @@ public abstract class AbstractServerPredicate implements Predicate<PredicateKey>
      * Get servers filtered by this predicate from list of servers. 
      */
     public List<Server> getEligibleServers(List<Server> servers, Object loadBalancerKey) {
+        System.out.println("AbstractServerPredicate.loadBalancerKey"+String.valueOf( loadBalancerKey ));
         if (loadBalancerKey == null) {
+            System.out.println(" Step 1");
             return ImmutableList.copyOf(Iterables.filter(servers, this.getServerOnlyPredicate()));            
         } else {
+            System.out.println("Step 2");
             List<Server> results = Lists.newArrayList();
             for (Server server: servers) {
                 if (this.apply(new PredicateKey(loadBalancerKey, server))) {

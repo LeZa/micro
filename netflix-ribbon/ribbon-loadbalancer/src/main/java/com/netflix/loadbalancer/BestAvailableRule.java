@@ -38,15 +38,22 @@ public class BestAvailableRule extends ClientConfigEnabledRoundRobinRule {
     
     @Override
     public Server choose(Object key) {
+
+        System.out.println("Choose server and key is:"+ String.valueOf( key) );
         if (loadBalancerStats == null) {
             return super.choose(key);
         }
         ILoadBalancer iLoadBalancer = getLoadBalancer();
-        List<Server> serverList = getLoadBalancer().getAllServers();
+
+        /**
+         * Get all servers
+         */
+        List<Server> serverList = iLoadBalancer.getAllServers();
         int minimalConcurrentConnections = Integer.MAX_VALUE;
         long currentTime = System.currentTimeMillis();
         Server chosen = null;
         for (Server server: serverList) {
+            System.out.println("Server is:"+String.valueOf(server));
             ServerStats serverStats = loadBalancerStats.getSingleServerStat(server);
             if (!serverStats.isCircuitBreakerTripped(currentTime)) {
                 int concurrentConnections = serverStats.getActiveRequestsCount(currentTime);
@@ -56,6 +63,7 @@ public class BestAvailableRule extends ClientConfigEnabledRoundRobinRule {
                 }
             }
         }
+
         if (chosen == null) {
             return super.choose(key);
         } else {

@@ -18,7 +18,9 @@
 package org.springframework.cloud.netflix.eureka.serviceregistry;
 
 import java.util.HashMap;
+import java.util.function.Consumer;
 
+import com.netflix.appinfo.HealthCheckHandler;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.cloud.client.serviceregistry.ServiceRegistry;
@@ -44,11 +46,20 @@ public class EurekaServiceRegistry implements ServiceRegistry<EurekaRegistration
 					+ reg.getInstanceConfig().getInitialStatus());
 		}
 
+		System.out.println("host..."+ reg.getHost() );
+		System.out.println("serviceId..."+ reg.getServiceId() );
+		System.out.println("Port..."+ reg.getPort() );
 		reg.getApplicationInfoManager()
 				.setInstanceStatus(reg.getInstanceConfig().getInitialStatus());
 
-		reg.getHealthCheckHandler().ifAvailable(healthCheckHandler ->
-				reg.getEurekaClient().registerHealthCheck(healthCheckHandler));
+		reg.getHealthCheckHandler().ifAvailable(new Consumer<HealthCheckHandler>() {
+			@Override
+			public void accept(HealthCheckHandler healthCheckHandler) {
+				reg.getEurekaClient().registerHealthCheck(healthCheckHandler);
+			}
+		});
+		/*reg.getHealthCheckHandler().ifAvailable(healthCheckHandler ->
+				reg.getEurekaClient().registerHealthCheck(healthCheckHandler));*/
 	}
 	
 	private void maybeInitializeClient(EurekaRegistration reg) {

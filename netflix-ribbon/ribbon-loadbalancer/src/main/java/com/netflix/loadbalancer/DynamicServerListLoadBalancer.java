@@ -247,6 +247,12 @@ public class DynamicServerListLoadBalancer<T extends Server> extends BaseLoadBal
                         getIdentifier(), servers);
             }
         }
+        if( servers != null
+                && servers.size() > 0 ){
+            for(Server server : servers){
+                System.out.println("All server and this server is:" + String.valueOf(server));
+            }
+        }
         updateAllServerList(servers);
     }
 

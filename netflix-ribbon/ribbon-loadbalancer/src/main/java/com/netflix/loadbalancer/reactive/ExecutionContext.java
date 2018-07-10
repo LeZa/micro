@@ -30,7 +30,6 @@ import java.util.concurrent.ConcurrentHashMap;
  * execution per listener per request. Each listener will get its own context
  * to work with. But it can also call {@link ExecutionContext#getGlobalContext()} to
  * get the shared context between all listeners.
- * 
  * @author Allen Wang
  *
  */

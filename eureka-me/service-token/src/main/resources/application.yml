@@ -6,7 +6,7 @@ spring:
       name: service-token
   redis:
     database: 5
-    host: 192.168.89.54
+    host: 192.168.88.196
     password: 123456
     port: 6379
     timeout: 1000
@@ -23,4 +23,6 @@ eureka:
     lease-renewal-interval-in-seconds: 30
   client:
     serviceUrl:
-      defaultZone: http://192.168.89.54:7861/eureka/v2,http://192.168.89.122:7861/eureka/v2
+      defaultZone: http://192.168.88.196:7861/eureka/v2
+
+##http://192.168.89.122:7861/eureka/v2

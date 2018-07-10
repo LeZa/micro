@@ -11,17 +11,17 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RibbonConfig {
 
-/*    @Bean
-    public IRule iRule(){
-        return new BestAvailableRule();
-    }*/
-
     @Bean
     public IRule iRule(){
-        return new ZoneAvoidanceRule();
+        return new BestAvailableRule();
     }
 
-/*  @Bean
+/*    @Bean
+    public IRule iRule(){
+        return new ZoneAvoidanceRule();
+    }*/
+
+ /* @Bean
     public IRule iRule(){
       return new RoundRobinRule();
   }*/

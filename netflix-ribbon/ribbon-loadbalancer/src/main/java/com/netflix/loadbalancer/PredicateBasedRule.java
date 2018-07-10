@@ -24,8 +24,6 @@ import java.util.List;
 /**
  * A rule which delegates the server filtering logic to an instance of {@link AbstractServerPredicate}.
  * After filtering, a server is returned from filtered list in a round robin fashion.
- * 
- * 
  * @author awang
  *
  */
@@ -45,7 +43,9 @@ public abstract class PredicateBasedRule extends ClientConfigEnabledRoundRobinRu
     public Server choose(Object key) {
         ILoadBalancer lb = getLoadBalancer();
         List<Server> allServers = lb.getAllServers();
-        Optional<Server> server = getPredicate().chooseRoundRobinAfterFiltering(allServers, key);
+        AbstractServerPredicate abstractServerPredicate = getPredicate();//self
+        System.out.println("Choose server and key is:"+String.valueOf( key ) );
+        Optional<Server> server = abstractServerPredicate.chooseRoundRobinAfterFiltering(allServers, key);
         if (server.isPresent()) {
             return server.get();
         } else {

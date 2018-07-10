@@ -30,7 +30,6 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Utility class to invoke the list of {@link ExecutionListener} with {@link ExecutionContext}
- *
  * @author Allen Wang
  */
 public class ExecutionContextListenerInvoker<I, O> {

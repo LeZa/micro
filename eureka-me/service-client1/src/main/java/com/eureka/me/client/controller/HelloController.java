@@ -19,7 +19,6 @@ import java.util.Map;
 @RestController
 public class HelloController {
 
-
     @Autowired
     private  JdbcTemplate jdbcTemplate;
 
@@ -28,7 +27,6 @@ public class HelloController {
 
     @Autowired
     private RestTemplate  restTemplate;
-
 
     @GetMapping(value = "/hi")
     public String hi(@RequestParam String name, HttpServletRequest request ) throws SQLException {
@@ -49,7 +47,7 @@ public class HelloController {
     @GetMapping( value = "/updateUser" )
     public String updateUser(){
         ServiceInstance serviceInstance =  this.loadBalancerClient.choose("service-token");
-      System.out.println( "...."+  serviceInstance.getServiceId());
+        System.out.println( "...."+  serviceInstance.getServiceId());
         System.out.println( "...."+ serviceInstance.getUri());
         System.out.println( "...."+  serviceInstance.getHost());
         String resultStr = this.restTemplate.getForObject("http://service-token/update",String.class);
